@@ -232,6 +232,10 @@
   border-radius: 10px 10px 0 0;
 }
 
+.container-1NXEtd {
+  background-color:transparent !important;
+}
+
   /* B. Channel Groups and Individual Channels */
 .containerDefault-3GGEv_, 
 .containerDragAfter-3TEhpe, 
@@ -394,12 +398,12 @@
   background: transparent;
 }
 
-.searchBar-2_Yu-C {
+.searchBar-3TnChZ {
   background-color: transparent;
   border-color: var(--tres);
 }
 
-.privateChannels-oVe7HL .searchBar-2_Yu-C .searchBarInner-1_Tg2R,
+.privateChannels-oVe7HL .searchBar-3TnChZ .searchBarInner-1_Tg2R,
 a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
   background: var(--veil) var(--stars) top left;
@@ -2597,7 +2601,7 @@ svg[name="Activity"] {
   background-color: var(--blurple-sheer);
 }
 
-#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG {
+#app-mount .searchBar-3TnChZ.searchBarLight-1NxoDG {
   background: transparent;
 }
 
@@ -2606,7 +2610,7 @@ svg[name="Activity"] {
   background-color: var(--veil);
 }
 
-#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+#app-mount .searchBar-3TnChZ.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
   background: var(--veil);
 }
 
