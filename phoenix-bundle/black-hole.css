@@ -3304,4 +3304,26 @@ background-attachment: fixed;
   background: transparent;
 }
 
+/* Chat Background */
+.chat-2ZfjoI .chatContent-3KubbW {
+  background-color: transparent;
+}
+
+/* Voice Connected */
+.container-1zzFcN {
+    background-color: transparent !important;
+}
+
+.container-1zzFcN .button-1EGGcP {
+  background-color: var(--main-color);
+}
+.container-1zzFcN .button-1EGGcP:hover {
+  background-color: var(--hover-color);
+}
+
+/*  */
+[role="list"] > div {
+  background-color:transparent;
+}
+
 /* XIV. Addon Optimization */
