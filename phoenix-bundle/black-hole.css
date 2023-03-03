@@ -1,7 +1,7 @@
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 @import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
-@import "https://monstrousdev.github.io/themes/addons/user-tags.css";
-/* @import "https://monstrousdev.github.io/themes/addons/filter.css"; */
+@import "https://requidev.github.io/phoenix-bundle/addons/user-tags.css";
+/* @import "https://requidev.github.io/phoenix-bundle/addons/filter.css"; */
 @import "https://themonstrousdev.github.io/styles/google-fonts.css";
 
 /*
@@ -1674,14 +1674,14 @@ svg[name="Activity"] path{
 
 svg[name="Nova_Bell"] {
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/bell.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/svgs/bell.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/bell.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/bell.svg) center/100% no-repeat;
 }
 
 svg[name="Nova_BellOff"] {
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/bell-off.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/svgs/bell.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/bell-off.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/bell.svg) center/100% no-repeat;
 }
 
 svg[name="Nova_Pin"] {
@@ -1693,8 +1693,8 @@ svg[name="Nova_Pin"] {
 
 svg[name="Nova_People"] {
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/friends.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/friends.svg) center/100% no-repeat;
 }
 
 svg[name="Nova_At"] {
@@ -1706,38 +1706,38 @@ svg[name="Nova_At"] {
 
 svg[name="Nova_CallJoin"] {
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/phone-call.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/svgs/phone-call.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/phone-call.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/phone-call.svg) center/100% no-repeat;
 }
 
 svg[name="Nova_CallVideo"] {
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/video-call.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/video-call.svg) center/100% no-repeat;
 }
 
 svg[name="PersonWaving"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/friends.svg) center/100% no-repeat;;
 }
 
 svg[name="NitroWheel"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/nitro.svg) center/100% no-repeat;;
 }
 
 svg[name="Library"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/library.svg) center/100% no-repeat;;
 }
 
 svg[name="Activity"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
 
 /* VI. Top Layers */
@@ -2635,55 +2635,55 @@ svg[name="Activity"] {
 .categoryItemDefaultCategory-3haEDq[aria-label*='recent'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='recent'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='recent']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/frequent.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/frequent.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='people'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='people'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='people']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/people.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/people.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='nature'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='nature'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='nature']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/nature.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/nature.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='food'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='food'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='food']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/food.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/food.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='activity'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='activity'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='activity']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/activity.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/activity.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='travel'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='travel'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='travel']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/travel.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/travel.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='objects'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='objects'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='objects']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/objects.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/objects.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='symbols'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='symbols'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='symbols']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/symbols.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/symbols.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='flags'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='flags'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='flags']:hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/flags.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/flags.svg) !important
 }
 
 #app-mount .sadImage-2_mw0p {
