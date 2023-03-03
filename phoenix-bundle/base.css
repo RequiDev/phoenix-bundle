@@ -3462,6 +3462,7 @@ pre {
 
 /* Hide Background Shadow due to misalignment */
 #app-mount div.avatarPositionPremiumBanner-2nq2Fy .wrapper-3Un6-K[style*="height: 80px"] circle,
+#app-mount div.avatarPositionPanel-3P4Ted .wrapper-3Un6-K[style*="height: 80px"] circle,
 #app-mount div.avatarPositionPremiumNoBanner-nWzERs .wrapper-3Un6-K[style*="height: 80px"] circle {
   visibility:hidden;
 }
