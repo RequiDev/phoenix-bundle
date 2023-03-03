@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import "https://monstrousdev.github.io/themes/addons/donator-tags.css";
-@import "https://monstrousdev.github.io/themes/addons/tag-animations.css";
+@import "https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/addons/donator-tags.css";
+@import "https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/addons/tag-animations.css";
 
 :root {
   --mc: var(--main-color);
