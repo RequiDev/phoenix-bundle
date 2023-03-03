@@ -450,7 +450,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   background-color: transparent;
 }
 
-#app-mount .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS .listItem-3SmSlK .wrapper-28eC3z .childWrapper-1j_1ub {
+#app-mount .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS .listItem-3SmSlK .wrapper-2PSQCG .childWrapper-1j_1ub {
   background-color: transparent;
 }
 
@@ -468,7 +468,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   width: 100% !important;
 }
 
-#app-mount .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS .listItem-3SmSlK .wrapper-28eC3z.selected-1Drb7Z .homeIcon-FuNwkv {
+#app-mount .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS .listItem-3SmSlK .wrapper-2PSQCG.selected-1Drb7Z .homeIcon-FuNwkv {
   background-color: var(--blurple) !important;
 }
 
@@ -532,12 +532,12 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
   /* C. Guild Folders */
-#app-mount .expandedFolderBackground-1cujaW, 
+#app-mount .expandedFolderBackground-1kSAf6, 
 #app-mount .folder-1hbNCn {
   background-color: transparent;
 }
 
-#app-mount .expandedFolderBackground-1cujaW::before {
+#app-mount .expandedFolderBackground-1kSAf6::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1096,7 +1096,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
 #app-mount .membersWrap-3NUR2t,
-#app-mount .members-3WRCEx .content-2a4AW9 {
+#app-mount .members-3WRCEx .content-yjf30S {
   height: 100% !important;
 }
 
