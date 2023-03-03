@@ -6576,10 +6576,17 @@ div.reply-item {
   
 }
 
+/* Chat Background */
 .chat-2ZfjoI .chatContent-3KubbW {
   background-color: transparent;
 }
 
+/* Voice Connected */
+.container-1zzFcN {
+    background-color: transparent !important;
+}
+
+/*  */
 [role="list"] > div {
   background-color:transparent;
 }
