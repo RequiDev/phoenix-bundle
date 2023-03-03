@@ -480,10 +480,10 @@
 
 /* custom background fix */
 
-.userPopout-2j1gM4 .wrapper-1VLyxH * {
+.userPopout-2j1gM4 .wrapper-3Un6-K * {
   z-index: 1;
 }
 
-.userPopout-2j1gM4 .wrapper-1VLyxH::after {
+.userPopout-2j1gM4 .wrapper-3Un6-K::after {
   z-index: unset;
 }
