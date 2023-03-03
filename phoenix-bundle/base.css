@@ -1,7 +1,7 @@
 /* Imports */
 @import "https://fonts.googleapis.com/css?family=Satisfy|Montserrat:300";
-@import "https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/addons/user-tags.css";
-/* @import "https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/addons/filter.css"; */
+@import "https://requidev.github.io/phoenix-bundle/addons/user-tags.css";
+/* @import "https://requidev.github.io/phoenix-bundle/addons/filter.css"; */
 @import "https://themonstrousdev.github.io/styles/google-fonts.css";
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 
@@ -265,21 +265,21 @@
 }
 
 .titleBar-1it3bQ .winButtonClose-3Q8ZH5 {
-	background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/cancel.svg) !important;
+	background-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/cancel.svg) !important;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 24px;
 }
 
 .titleBar-1it3bQ .winButton-3UMjdg:nth-child(3) {
-	background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/fullscreen.svg) !important;
+	background-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/fullscreen.svg) !important;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 24px;
 }
 
 .titleBar-1it3bQ .winButton-3UMjdg:nth-child(4) {
-	background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/minimize.svg) !important;
+	background-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/minimize.svg) !important;
 	background-repeat: no-repeat;
 	background-position: center 7px;
 	background-size: 24px;
@@ -327,14 +327,14 @@ svg[name="Activity"] path{
 
 svg[name="Nova_Bell"] {
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/bell.svg) center/100% no-repeat;
-  mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/bell.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/bell.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/bell.svg) center/100% no-repeat;
 }
 
 svg[name="Nova_BellOff"] {
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/bell-off.svg) center/100% no-repeat;
-  mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/bell.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/bell-off.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/bell.svg) center/100% no-repeat;
 }
 
 svg[name="Nova_Pin"] {
@@ -346,8 +346,8 @@ svg[name="Nova_Pin"] {
 
 svg[name="Nova_People"] {
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/home-tabs/friends.svg) center/100% no-repeat;
-  mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/home-tabs/friends.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/friends.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/friends.svg) center/100% no-repeat;
 }
 
 svg[name="Nova_At"] {
@@ -358,14 +358,14 @@ svg[name="Nova_At"] {
 
 svg[name="Nova_CallJoin"] {
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/phone-call.svg) center/100% no-repeat;
-  mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/phone-call.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/phone-call.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/phone-call.svg) center/100% no-repeat;
 }
 
 svg[name="Nova_CallVideo"] {
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/video-call.svg) center/100% no-repeat;
-  mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/video-call.svg) center/100% no-repeat;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/video-call.svg) center/100% no-repeat;
+  mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/video-call.svg) center/100% no-repeat;
 }
 
 .channel-1Shao0[href="/discovery"] .avatar-6qzftW svg path{
@@ -375,25 +375,25 @@ svg[name="Nova_CallVideo"] {
 .channel-1Shao0[href="/channels/@me"] .avatar-6qzftW svg {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/home-tabs/friends.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/friends.svg) center/100% no-repeat;;
 }
 
 .channel-1Shao0[href="/store"] .avatar-6qzftW svg {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/home-tabs/nitro.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/nitro.svg) center/100% no-repeat;;
 }
 
 .channel-1Shao0[href="/library"] .avatar-6qzftW svg {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/home-tabs/library.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/library.svg) center/100% no-repeat;;
 }
 
 svg[name="Activity"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/home-tabs/activity.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
 
 /* 2. Chat Header */
@@ -600,7 +600,7 @@ svg[name="Activity"] {
 
 .tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
   background-color: var(--home-color);
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/home.svg);
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/home.svg);
   -webkit-mask-size: var(--home-size);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -3569,8 +3569,8 @@ foreignObject[mask*="mobile"]::after {
 
 foreignObject[mask*="mobile"]::after {
   background: var(--online);
-  mask: url("https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/phone.svg") center/70% no-repeat;
-  -webkit-mask: url("https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/phone.svg") center/70% no-repeat;
+  mask: url("https://requidev.github.io/phoenix-bundle/assets/svgs/phone.svg") center/70% no-repeat;
+  -webkit-mask: url("https://requidev.github.io/phoenix-bundle/assets/svgs/phone.svg") center/70% no-repeat;
 }
 
 .avatarHint-1qgaV3 foreignObject[mask*="mobile"]::before,
@@ -4049,55 +4049,55 @@ foreignObject[mask*="mobile"]::after {
 .categoryItemDefaultCategory-3haEDq[aria-label*='recent'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='recent'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='recent']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/frequent.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/frequent.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='people'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='people'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='people']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/people.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/people.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='nature'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='nature'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='nature']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/nature.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/nature.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='food'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='food'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='food']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/food.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/food.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='activity'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='activity'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='activity']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/activity.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/activity.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='travel'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='travel'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='travel']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/travel.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/travel.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='objects'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='objects'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='objects']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/objects.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/objects.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='symbols'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='symbols'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='symbols']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/symbols.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/symbols.svg) !important
 }
 
 .categoryItemDefaultCategory-3haEDq[aria-label*='flags'],
 .categoryItemDefaultCategory-3haEDq[aria-label*='flags'].categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq[aria-label*='flags']:hover {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/emojiCategory/flags.svg) !important
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/emojiCategory/flags.svg) !important
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
@@ -4384,7 +4384,7 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .gameIcon-1siQqm[style*="/assets/a5eba102f5b5e413df2b65c73f288afa.svg"] {
-  background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/no-game.svg) !important;
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/no-game.svg) !important;
   border: 2px solid rgba(255, 255, 255, .5);
   box-sizing: border-box;
 }
@@ -4632,7 +4632,7 @@ foreignObject[mask*="mobile"]::after {
   height: 100%;
   width: 24px;
   background-color: #eee;
-  -webkit-mask: url("https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/check.svg");
+  -webkit-mask: url("https://requidev.github.io/phoenix-bundle/assets/svgs/check.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size: 95%;
@@ -4791,7 +4791,7 @@ foreignObject[mask*="mobile"]::after {
 .check-K_srvn {
   background-image: none !important;
   background-color: var(--main-color);
-  -webkit-mask-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/check.svg);
+  -webkit-mask-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/check.svg);
   -webkit-mask-size: 18px;
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
@@ -4868,7 +4868,7 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .item-1Yvehc.itemSubMenu-1vN_Yn::after {
-  content: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/arrow.svg);
+  content: url(https://requidev.github.io/phoenix-bundle/assets/svgs/arrow.svg);
   position: absolute;
   right: 5px;
   opacity: .6;
@@ -5160,19 +5160,19 @@ foreignObject[mask*="mobile"]::after {
   }
   
   #status-picker .item-1OdjEX:nth-child(1) .status-3TYC5W {
-    background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/status/online.svg);
+    background-image: url(https://requidev.github.io/phoenix-bundle/assets/status/online.svg);
   }
   
   #status-picker .item-1OdjEX:nth-child(3) .status-3TYC5W {
-    background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/status/idle.svg);
+    background-image: url(https://requidev.github.io/phoenix-bundle/assets/status/idle.svg);
   }
   
   #status-picker .item-1OdjEX:nth-child(4) .status-3TYC5W {
-    background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/status/dnd.svg);
+    background-image: url(https://requidev.github.io/phoenix-bundle/assets/status/dnd.svg);
   }
   
   #status-picker .item-1OdjEX:nth-child(5) .status-3TYC5W {
-    background-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/status/invisi.svg);
+    background-image: url(https://requidev.github.io/phoenix-bundle/assets/status/invisi.svg);
   }
   
   #status-picker .item-1OdjEX .icon-Lz4Y-_ .status-oxiHuE {
@@ -5444,14 +5444,14 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .uploadModal-2ie9O_ .footer-VCsJQY button[type*="submit"] {
-  -webkit-mask-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/check.svg);
+  -webkit-mask-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/check.svg);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   background-color: rgba(33, 219, 135, 0.6);
 }
 
 .uploadModal-2ie9O_ .footer-VCsJQY button[type*="button"] {
-  -webkit-mask: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/cancel.svg);
+  -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/cancel.svg);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   background-color: rgba(240, 71, 71, 0.6);
@@ -6205,7 +6205,7 @@ color: var(--main-color) !important;
 
 .symbol-34PJsf {
   background-color: var(--main-color);
-  -webkit-mask-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/demon-fill.svg);
+  -webkit-mask-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/demon-fill.svg);
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 80vw 60vh;
@@ -6223,7 +6223,7 @@ color: var(--main-color) !important;
   right: 0;
   bottom: 0;
   background-color: #231F1F;
-  -webkit-mask-image: url(https://raw.githubusercontent.com/RequiDev/phoenix-bundle/master/assets/svgs/demon-outline.svg);
+  -webkit-mask-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/demon-outline.svg);
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 80vw 60vh;
