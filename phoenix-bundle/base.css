@@ -1345,7 +1345,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
 .container-1NXEtd {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .users-2JoyGL {
@@ -6557,6 +6557,7 @@ div.reply-item {
   
   .chat-2ZfjoI .chatContent-3KubbW {
     margin-right:-145px !important;
+    background-color:transparent;
     z-index:1
   }
   
@@ -6574,4 +6575,8 @@ div.reply-item {
     z-index: 2 !important;
   }
   
+}
+
+[role="list"] > div {
+  background-color:transparent;
 }
