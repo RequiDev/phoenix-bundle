@@ -6586,6 +6586,13 @@ div.reply-item {
     background-color: transparent !important;
 }
 
+.container-1zzFcN .button-1EGGcP {
+  background-color: var(--main-color);
+}
+.container-1zzFcN .button-1EGGcP:hover {
+  background-color: var(--hover-color);
+}
+
 /*  */
 [role="list"] > div {
   background-color:transparent;
