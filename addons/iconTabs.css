@@ -1,0 +1,47 @@
+.privateChannels-oVe7HL .channel-1Shao0:not([href*="/channels/@me/"]):not([categoryid]) {
+  position: relative;
+  float: left;
+  margin: 0px 13px;
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+  transform: scale(0.9);
+  border-left: none !important;
+  transition: none;
+}
+
+.privateChannels-oVe7HL .channel-1Shao0:not([href*="/channels/@me/"]):not([categoryid]) .layout-1qmrhw {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.privateChannels-oVe7HL .channel-1Shao0:not([href*="/channels/@me/"]):not([categoryid]):hover {
+  border-left: none !important;
+}
+
+.privateChannels-oVe7HL .channel-1Shao0:not([href*="/channels/@me/"]):not([categoryid]).selected-1-Z6gm {
+  background-color: var(--main-color);
+}
+
+.privateChannels-oVe7HL .channel-1Shao0:not([href*="/channels/@me/"]):not([categoryid]) .content-1U25dZ {
+  display: none;
+}
+
+.privateChannels-oVe7HL .channel-1Shao0:not([href*="/channels/@me/"]):not([categoryid]) .layout-1qmrhw .avatar-6qzftW {
+  margin: 0;
+}
+
+.privateChannels-oVe7HL .channel-1Shao0:not([href*="/channels/@me/"]):not([categoryid]) .children-283-lq {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+html .tabBadge-h4HGed {
+  position: absolute;
+  transform: translate(50%, -50%);
+}

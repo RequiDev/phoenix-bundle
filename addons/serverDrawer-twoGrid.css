@@ -1,0 +1,82 @@
+@import "https://monstrousdev.github.io/themes/addons/twoColumnServer.css";
+
+/* server grid */
+.wrapper-1Rf91z {
+  background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) left/cover no-repeat !important;
+  background-attachment: fixed;
+  transform: translateY(-100%);
+  transition: all 1s cubic-bezier(.4, 0, 0, 1);
+  overflow: visible;
+}
+
+.wrapper-1Rf91z.foldercontent {
+  transition: 1s cubic-bezier(.4, 0, 0, 1), width .3s linear !important;
+}
+
+.wrapper-1Rf91z *::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper-1Rf91z:not(.foldercontent):hover,
+.wrapper-1Rf91z:not(.foldercontent):hover ~ .wrapper-1Rf91z.foldercontent {
+  transform: translateY(0);
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  top: 100.8%;
+  left: -1px;
+  width: 71px;
+  transform: translateY(104.5%);
+  z-index: 99999;
+  background-color: var(--quaternary-color);
+  transition: all 1s cubic-bezier(.4, 0, 0, 1);
+  box-shadow: var(--elevation-low);
+}
+
+.wrapper-1Rf91z:not(.foldercontent):hover .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  top: 1.5%;
+  transform: translateY(0);
+}
+
+.wrapper-1Rf91z.foldercontent::after {
+  width: 0;
+  opacity: 0;
+  transition: width .3s linear;
+}
+
+.wrapper-1Rf91z.foldercontent.foldercontentopen::after {
+  width: 70px;
+  opacity: 1;
+}
+
+.wrapper-1Rf91z.foldercontent {
+  width: 0px;
+  overflow: hidden;
+}
+
+.wrapper-1Rf91z:hover ~ .wrapper-1Rf91z.foldercontent.foldercontentopen {
+  width: 70px;
+}  
+
+.wrapper-1Rf91z.foldercontent .scrollerWrap-1IAIlv {
+  overflow: hidden;
+}
+
+.base-3dtUhz {
+  left: 0px;
+}
+
+.container-2Rl01u,
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+  left: 140px;
+  width: 100px;
+}
+
+@keyframes popoutanim-min {
+  0% {
+    transform: translateX(-50%) scale(0);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}

@@ -1,0 +1,133 @@
+/* grow in with pulse */
+.avatar-2e8lTP[src*="254362351170617345"]:hover + h2:after,
+.avatar-2e8lTP[src*="234148582523928576"]:hover + h2::after,
+.avatar-2e8lTP[src*="166365757561634816"]:hover + h2::after,
+.avatar-2e8lTP[src*="213220786805145600"]:hover + h2:after,
+.avatar-2e8lTP[src*="231827402102276096"]:hover + h2::after,
+.avatar-2e8lTP[src*="140012296910012416"]:hover + h2::after,
+.avatar-2e8lTP[src*="460174770957189155"]:hover + h2::after,
+.avatar-2e8lTP[src*="664933588835368990"]:hover + h2::after,
+.avatar-2e8lTP[src*="454072114492866560"]:hover + h2::after,
+.avatar-2e8lTP[src*="278516985640517632"]:hover + h2::after,
+.avatar-2e8lTP[src*="194830015353847817"]:hover + h2::after,
+.avatar-2e8lTP[src*="250353310698176522"]:hover + h2::after,
+.avatar-2e8lTP[src*="371581535801049089"]:hover + h2::after{
+  animation: mentionpulse 1.5s infinite, popoutanim .2s;
+}
+
+
+/* grow in */
+.avatar-2e8lTP[src*="773960830034378763"]:hover + h2::after,
+.avatar-2e8lTP[src*="102543272018194432"]:hover + h2::after {
+  animation: popoutanim .2s;
+}
+
+/* fall and bounce */
+.avatar-2e8lTP[src*="282138006738042880"]:hover + h2:after,
+.avatar-2e8lTP[src*="244392852950482944"]:hover + h2::after,
+.avatar-2e8lTP[src*="236006926406778881"]:hover + h2::after {
+  animation: fallBounce 1s;
+}
+
+/* spin in */
+.monstrum {
+  animation: scaleSpin .4s;
+}
+
+/* fade from right */
+.avatar-2e8lTP[src*="267803219080642560"]:hover + h2::after{
+  animation: fadeFromRight .2s;
+}
+
+/* fade from top */
+.avatar-2e8lTP[src*="670550004091322368"]:hover + h2::after{
+  animation: fadeFromTop .2s;
+}
+
+/* fade from bottom */
+.avatar-2e8lTP[src*="150852555885379584"]:hover + h2::after,
+.avatar-2e8lTP[src*="111476801762537472"]:hover + h2::after {
+  animation: fadeFromBottom .2s;
+}
+
+
+/* ---- keyframes ---- */
+@keyframes fallBounce { /* 1s */
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0) scale(1.1, 0.9);
+  }
+  50% {
+    transform: translateY(-20%) scale(0.9, 1.1);
+  }
+  75% {
+    transform: translateY(0)
+  }
+}
+
+@keyframes scaleSpin { /* .4s */
+  from {
+    transform: scale(0) rotate(360deg);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes popoutanim {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@keyframes fadeFromBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@-webkit-keyframes mentionpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--main-color);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}

@@ -1,0 +1,40 @@
+/* disabled under further notice */
+
+/*.listItem-2P_4kh:last-child,
+.listItem-2P_4kh:nth-last-child(2) {
+  position: absolute;
+}
+
+.listItem-2P_4kh:nth-last-child(2) {
+  bottom: 70px;
+}
+
+.listItem-2P_4kh:last-child {
+  bottom: 10px;
+}
+
+.listItem-2P_4kh:nth-last-child(2)::before {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  width: 70px;
+  height: 300px;
+  background: linear-gradient(rgba(48, 48, 48, 0) 0%, var(--quaternary-color) 60%, var(--quaternary-color) 100%);
+  pointer-events: none;
+}
+
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
+  padding: 10px 0 130px 0 !important;
+}
+
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN.foldercontent::after {
+  content: "";
+  width: 70px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 5;
+  background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, var(--quaternary-color) 60%, var(--quaternary-color) 100%);
+  pointer-events: none;
+}
