@@ -1255,7 +1255,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   background-color: transparent;
 }
 
-#app-mount .wrapper-3Njo_c .wrapper-2PSQCG {
+#app-mount .wrapper-z5ab_q .wrapper-2PSQCG {
   border-radius: calc(var(--roundness)/5);
 }
 
@@ -3764,7 +3764,7 @@ foreignObject[mask*="mobile"]::after {
 .clickableAvatar-igrb2Y, 
 .emptyUser-2FDCJv,
 #app-mount .acronym-2zrAHN,
-#app-mount div:not(.wrapper-3Njo_c) .wrapper-2PSQCG,
+#app-mount div:not(.wrapper-z5ab_q) .wrapper-2PSQCG,
 #app-mount .wrapper-3Un6-K foreignObject .avatar-b5OQ1N,
 #app-mount .avatarHint-1qgaV3 foreignObject .avatarHintInner-Dco91E,
 #app-mount .circleIconButton-1VxDrg,
