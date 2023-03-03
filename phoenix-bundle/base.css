@@ -598,7 +598,8 @@ svg[name="Activity"] {
 
   /* 2.c. Change Icons */
 
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-2PSQCG svg {
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-2PSQCG svg,
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-z5ab_q svg {
   background-color: var(--home-color);
   -webkit-mask: url(https://requidev.github.io/phoenix-bundle/assets/svgs/home.svg);
   -webkit-mask-size: var(--home-size);
