@@ -6560,10 +6560,6 @@ div.reply-item {
     z-index:1
   }
   
-  .chatContent-3KubbW {
-    background-color: transparent !important;
-  }
-  
   .chat-2ZfjoI .content-1jQy2l>.spacer-2upayl.vertical-3aLnqW:only-child {
     margin-right:0px !important;
     z-index:1
@@ -6578,6 +6574,10 @@ div.reply-item {
     z-index: 2 !important;
   }
   
+}
+
+.chat-2ZfjoI .chatContent-3KubbW {
+  background-color: transparent;
 }
 
 [role="list"] > div {
