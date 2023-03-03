@@ -6555,10 +6555,14 @@ div.reply-item {
   .header-toolbar button.active{display:none;}
 
   
-  .chat-2ZfjoI .content-1jQy2l .chatContent-3KubbW {
+  .chat-2ZfjoI .chatContent-3KubbW {
     margin-right:-145px !important;
     background-color: transparent;
     z-index:1
+  }
+  
+  .chat-2ZfjoI > .chatContent-3KubbW {
+    background-color: transparent;
   }
   
   .chat-2ZfjoI .content-1jQy2l>.spacer-2upayl.vertical-3aLnqW:only-child {
