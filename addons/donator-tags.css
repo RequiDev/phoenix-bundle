@@ -143,7 +143,7 @@
 /* ===== FRIENDS ===== */
 /* mine */
 .avatar-2e8lTP[src*="402272736665272320"] + h2::after {
-  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/elleCrown.svg);
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/elleCrown.svg);
   transition: filter .2s ease-in-out;
   transform: scale(1.1);
   height: 15px !important;
@@ -194,7 +194,7 @@
 }
 
 .avatar-2e8lTP[src*="250353310698176522"] + h2::after {
-  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/moon.svg);
+  background-image: url(https://requidev.github.io/phoenix-bundle/assets/svgs/moon.svg);
   transform: scale(.75);
 }
 
