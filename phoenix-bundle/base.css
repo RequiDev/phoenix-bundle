@@ -3441,8 +3441,8 @@ pre {
 
 #app-mount .wrapper-3Un6-K[style*="height: 120px"] rect[mask*="svg-mask-status"],
 #app-mount .wrapper-3Un6-K[style*="height: 120px"] foreignObject+svg rect {
-  height: 120px !important;
-  width: 120px !important;
+  height: 24px !important;
+  width: 24px !important;
 }
 
 #app-mount .wrapper-3Un6-K[style*="height: 80px"] foreignObject+svg rect:not([x*="60"]) {
