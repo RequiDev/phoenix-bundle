@@ -6630,7 +6630,7 @@ div.reply-item {
 
 /* Post Background */
 .container-1PloNW {
-    background: var(--primary-color);
+    background: transparent;
 }
 
 /* Posts Search Bar */
@@ -6640,7 +6640,7 @@ div.reply-item {
 
 /* Post Preview */
 .contentPreview-3fWiuC {
-    background: var(--primary-color);
+    background: transparent;
 }
 
 /* Post Preview Gradient */
