@@ -6613,7 +6613,37 @@ div.reply-item {
   background-color: var(--hover-color);
 }
 
-/*  */
+/* Actually no clue. Please figure out. */
 [role="list"] > div {
   background-color:transparent;
+}
+
+/* Posts Chat Background */
+.chatContent-3KubbW {
+    background: var(--primary-color);
+}
+
+/* Posts Panel */
+.container-3wLKDe {
+    background: transparent;
+}
+
+/* Post Background */
+.container-1PloNW {
+    background: var(--primary-color);
+}
+
+/* Posts Search Bar */
+.container-JhuCwn {
+    background: var(--primary-color)
+}
+
+/* Post Preview */
+.contentPreview-3fWiuC {
+    background: var(--primary-color);
+}
+
+/* Post Preview Gradient */
+.textContentFooter-2JnNv8 {
+    background: transparent !important;
 }
