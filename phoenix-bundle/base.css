@@ -3385,7 +3385,7 @@ pre {
 }
   
   /* 11.b. Status */
-.mask-1FEkla {
+.mask-1y0tyc {
   contain: none;
 }
 .wrapper-3Un6-K foreignObject+rect[mask*="svg-mask-status"],
@@ -6648,4 +6648,16 @@ div.reply-item {
 /* Post Preview Gradient */
 .textContentFooter-2JnNv8 {
     background: transparent !important;
+}
+
+/* Stream Popup */
+.root-1CAIjD,
+.footer-IubaaS,
+.option-Uc12mm,
+.card-m7VgZ8 {
+  background-color: var(--primary-color) !important;
+}
+
+.changeButton-2kfgQt {
+  background-color: var(--main-color) !important;
 }
