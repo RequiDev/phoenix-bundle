@@ -3112,7 +3112,7 @@ pre {
 }
 
 #app-mount .scroller-29cQFV,
-#app-moung .scroller-s-wehS {
+#app-mount .scroller-s-wehS {
   background: transparent;
 }
 
@@ -3548,7 +3548,8 @@ rect[fill="#747f8d"] + .dots-1k2MxY {
   -webkit-text-stroke-color: var(--offline);
 }
 
-.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
+.avatarWrapperNormal-3wFMbf:hover .avatarHint-k7pYop,
+.avatarDecorationHint-3n-p6O {
   width: 79.5px;
   height: 77.5px;
   transition: opacity 200ms ease-in-out;
@@ -3595,8 +3596,10 @@ foreignObject[mask*="mobile"]::after {
   -webkit-mask: url("https://requidev.github.io/phoenix-bundle/assets/svgs/phone.svg") center/70% no-repeat;
 }
 
-.avatarHint-1qgaV3 foreignObject[mask*="mobile"]::before,
-.avatarHint-1qgaV3 foreignObject[mask*="mobile"]::after {
+.avatarHint-k7pYop foreignObject[mask*="mobile"]::before,
+.avatarHint-k7pYop foreignObject[mask*="mobile"]::after,
+.avatarDecorationHint-3n-p6O foreignObject[mask*="mobile"]::before,
+.avatarDecorationHint-3n-p6O foreignObject[mask*="mobile"]::after {
   display: none;
 }
 
@@ -3742,7 +3745,8 @@ foreignObject[mask*="mobile"]::after {
 .avatar-xxlarge,
 .wrapper-2F3Zv8,
 .status-oxiHuE.typing-1KJk_j .pulsingEllipsisItem-3pNmEc,
-.avatarHint-1qgaV3,
+.avatarHint-k7pYop,
+.avatarDecorationHint-3n-p6O,
 .partyMemberOverflow-3VhFIX .partyMemberBackground-aSF9mc,
 .listRow-hutiT_ .listAvatar-1NlAhb,
 .avatar-uploader-inner,
@@ -3787,8 +3791,9 @@ foreignObject[mask*="mobile"]::after {
 .emptyUser-2FDCJv,
 #app-mount .acronym-2zrAHN,
 #app-mount div:not(.wrapper-1_HaEi) .wrapper-2PSQCG,
-#app-mount .wrapper-3Un6-K foreignObject .avatar-b5OQ1N,
-#app-mount .avatarHint-1qgaV3 foreignObject .avatarHintInner-Dco91E,
+#app-mount .wrapper-3Un6-K foreignObject .avatar-31d8He,
+#app-mount .avatarHint-k7pYop foreignObject .avatarHintInner-Dco91E,
+#app-mount .avatarDecorationHint-3n-p6O foreignObject  .avatarHintInner-Dco91E,
 #app-mount .circleIconButton-1VxDrg,
 #app-mount .wrapper-2PSQCG .wrapper-3kah-n {
   border-radius: var(--roundness) !important;
