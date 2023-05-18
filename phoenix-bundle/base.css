@@ -3457,10 +3457,9 @@ pre {
 	transform: translate(-60px, -60px);
 }
 
-/* Hide Background Shadow due to misalignment */
-#app-mount div.avatarPositionPremiumBanner-2EAbSH .wrapper-3Un6-K[style*="height: 80px"] circle,
-#app-mount div.avatarPositionPanel-3P4Ted .wrapper-3Un6-K[style*="height: 80px"] circle,
-#app-mount div.avatarPositionPremiumNoBanner-nWzERs .wrapper-3Un6-K[style*="height: 80px"] circle {
+/* Hide Background Shadow of status indicators */
+#app-mount .wrapper-3Un6-K[style*="height: 80px"] circle,
+#app-mount .wrapper-3Un6-K[style*="height: 120px"] circle {
   visibility:hidden;
 }
 
