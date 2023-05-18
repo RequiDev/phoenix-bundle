@@ -3405,7 +3405,7 @@ pre {
   opacity: 0;
 }
 
-#app-mount .wrapper-3Un6-K rect[mask*="svg-mask-status"] {
+#app-mount .wrapper-3Un6-K rect[mask*="svg-mask-status"][x*="60"] {
   position: absolute;
   height: 32px !important;
   width: 32px !important;
@@ -3457,8 +3457,8 @@ pre {
 }
 
 /* Resize online status indicator */
-#app-mount div.avatarPositionPremiumBanner-2nq2Fy .wrapper-3Un6-K[style*="height: 80px"] rect[mask*="svg-mask-status"],
-#app-mount div.avatarPositionPremiumBanner-2nq2Fy .wrapper-3Un6-K[style*="height: 80px"] foreignobject+svg rect,
+#app-mount div.avatarPositionPremiumBanner-2EAbSH .wrapper-3Un6-K[style*="height: 80px"] rect[mask*="svg-mask-status"],
+#app-mount div.avatarPositionPremiumBanner-2EAbSH .wrapper-3Un6-K[style*="height: 80px"] foreignobject+svg rect,
 #app-mount div.avatarPositionPanel-3P4Ted .wrapper-3Un6-K[style*="height: 80px"] rect[mask*="svg-mask-status"],
 #app-mount div.avatarPositionPanel-3P4Ted .wrapper-3Un6-K[style*="height: 80px"] foreignobject+svg rect,
 #app-mount div.avatarPositionPremiumNoBanner-nWzERs .wrapper-3Un6-K[style*="height: 80px"] rect[mask*="svg-mask-status"],
@@ -3468,7 +3468,7 @@ pre {
 }
 
 /* Hide Background Shadow due to misalignment */
-#app-mount div.avatarPositionPremiumBanner-2nq2Fy .wrapper-3Un6-K[style*="height: 80px"] circle,
+#app-mount div.avatarPositionPremiumBanner-2EAbSH .wrapper-3Un6-K[style*="height: 80px"] circle,
 #app-mount div.avatarPositionPanel-3P4Ted .wrapper-3Un6-K[style*="height: 80px"] circle,
 #app-mount div.avatarPositionPremiumNoBanner-nWzERs .wrapper-3Un6-K[style*="height: 80px"] circle {
   visibility:hidden;
