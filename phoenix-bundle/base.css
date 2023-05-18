@@ -3405,7 +3405,7 @@ pre {
   opacity: 0;
 }
 
-#app-mount .wrapper-3Un6-K foreignObject+svg rect {
+#app-mount .wrapper-3Un6-K rect[mask*="svg-mask-status"] {
   position: absolute;
   height: 32px !important;
   width: 32px !important;
@@ -3792,8 +3792,8 @@ foreignObject[mask*="mobile"]::after {
 #app-mount .acronym-2zrAHN,
 #app-mount div:not(.wrapper-1_HaEi) .wrapper-2PSQCG,
 #app-mount .wrapper-3Un6-K foreignObject .avatar-31d8He,
-#app-mount .avatarHint-k7pYop foreignObject .avatarHintInner-Dco91E,
-#app-mount .avatarDecorationHint-3n-p6O foreignObject  .avatarHintInner-Dco91E,
+#app-mount .avatarHint-k7pYop foreignObject .avatarHintInner-2HUAWj,
+#app-mount .avatarDecorationHint-3n-p6O foreignObject  .avatarHintInner-2HUAWj,
 #app-mount .circleIconButton-1VxDrg,
 #app-mount .wrapper-2PSQCG .wrapper-3kah-n {
   border-radius: var(--roundness) !important;
