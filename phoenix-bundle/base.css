@@ -3456,17 +3456,6 @@ pre {
 	transform: translate(-60px, -60px);
 }
 
-/* Resize online status indicator */
-#app-mount div.avatarPositionPremiumBanner-2EAbSH .wrapper-3Un6-K[style*="height: 80px"] rect[mask*="svg-mask-status"],
-#app-mount div.avatarPositionPremiumBanner-2EAbSH .wrapper-3Un6-K[style*="height: 80px"] foreignobject+svg rect,
-#app-mount div.avatarPositionPanel-3P4Ted .wrapper-3Un6-K[style*="height: 80px"] rect[mask*="svg-mask-status"],
-#app-mount div.avatarPositionPanel-3P4Ted .wrapper-3Un6-K[style*="height: 80px"] foreignobject+svg rect,
-#app-mount div.avatarPositionPremiumNoBanner-nWzERs .wrapper-3Un6-K[style*="height: 80px"] rect[mask*="svg-mask-status"],
-#app-mount div.avatarPositionPremiumNoBanner-nWzERs .wrapper-3Un6-K[style*="height: 80px"] foreignobject+svg rect {
-  height: 24px !important;
-  width: 24px !important;
-}
-
 /* Hide Background Shadow due to misalignment */
 #app-mount div.avatarPositionPremiumBanner-2EAbSH .wrapper-3Un6-K[style*="height: 80px"] circle,
 #app-mount div.avatarPositionPanel-3P4Ted .wrapper-3Un6-K[style*="height: 80px"] circle,
