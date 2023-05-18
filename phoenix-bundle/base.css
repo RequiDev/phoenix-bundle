@@ -3405,7 +3405,8 @@ pre {
   opacity: 0;
 }
 
-#app-mount .wrapper-3Un6-K rect[mask*="svg-mask-status"][x*="60"] {
+#app-mount .wrapper-3Un6-K rect[mask*="svg-mask-status"][x*="60"],
+#app-mount .wrapper-3Un6-K rect[mask*="svg-mask-status"][x*="88"] {
   position: absolute;
   height: 32px !important;
   width: 32px !important;
