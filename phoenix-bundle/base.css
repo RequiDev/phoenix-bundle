@@ -3452,6 +3452,10 @@ pre {
   transform: translate(-48px, -51px);
 }
 
+#app-mount .wrapper-3Un6-K[style*="height: 80px"] rect[x*="60"] {
+	transform: translate(-60px, -60px);
+}
+
 /* Resize online status indicator */
 #app-mount div.avatarPositionPremiumBanner-2nq2Fy .wrapper-3Un6-K[style*="height: 80px"] rect[mask*="svg-mask-status"],
 #app-mount div.avatarPositionPremiumBanner-2nq2Fy .wrapper-3Un6-K[style*="height: 80px"] foreignobject+svg rect,
