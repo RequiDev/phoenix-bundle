@@ -3919,7 +3919,7 @@ foreignObject[mask*="mobile"]::after {
   background: transparent;
 }
 
-.layer-2aCOJ3[id*="popout"][style*="absolute; right:"] {
+.layer-2BGhQ8[id*="popout"][style*="absolute; right:"] {
   transform-origin: 50% -10%;
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
 }
@@ -4527,7 +4527,7 @@ foreignObject[mask*="mobile"]::after {
   margin-left: -92px;
 }
 
-.layer-2aCOJ3[style*="; top: 5"][id*="popout_"] .itemBase-1Qj4z6 {
+.layer-2BGhQ8[style*="; top: 5"][id*="popout_"] .itemBase-1Qj4z6 {
   margin: 0;
   padding: 10px 25px;
 }
@@ -4959,23 +4959,23 @@ foreignObject[mask*="mobile"]::after {
     margin-left: 10px;
   }
   
-  #status-picker .layer-2aCOJ3 {
+  #status-picker .layer-2BGhQ8 {
     margin-top: -5px;
     margin-left: -8px;
     border-radius: 0px;
     background: transparent;
   }
   
-  #status-picker .layer-2aCOJ3 .submenuPaddingContainer-_k62dJ {
+  #status-picker .layer-2BGhQ8 .submenuPaddingContainer-_k62dJ {
     background-color: var(--primary-color);
     box-shadow: 0px 0px 20px var(--shadow) !important;
   }
   
-  #status-picker .layer-2aCOJ3 .submenu-1apzyU {
+  #status-picker .layer-2BGhQ8 .submenu-1apzyU {
     background: transparent !important;
   }
   
-  #status-picker .layer-2aCOJ3 .item-1OdjEX {
+  #status-picker .layer-2BGhQ8 .item-1OdjEX {
     position: initial;
     display: flex;
     width: 188px;
