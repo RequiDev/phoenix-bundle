@@ -3413,7 +3413,6 @@ pre {
   top: 0;
   left: 0;
   mask: none !important;
-  transform: translate(-14.5px, -17px);
   fill-opacity: 0;
   stroke-width: 2px;
   rx: var(--roundness) !important;
@@ -3454,7 +3453,7 @@ pre {
   transform: translate(-48px, -51px);
 }
 
-#app-mount .wrapper-3Un6-K[style*="height: 80px"] rect[x*="60"] {
+#app-mount .wrapper-3Un6-K[style*="height: 80px"] circle+rect[x*="60"] {
 	transform: translate(-60px, -60px);
 }
 
