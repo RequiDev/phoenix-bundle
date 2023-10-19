@@ -320,12 +320,12 @@
   color: var(--blurple);
 }
 
-.panels-3wFtMD .container-YkUktl {
+.panels-3wFtMD .container-1CH86i {
   border-top: 1px solid var(--tres);
 }
 
 .container-1zzFcN,
-.container-YkUktl,
+.container-1CH86i,
 .container-1UB9sr,
 .payment-2bOh4k,
 .expandedInfo-1W31i3,
@@ -334,7 +334,7 @@
 }
 
 .container-1zzFcN,
-.container-YkUktl {
+.container-1CH86i {
   border: none;
 }
 
@@ -566,7 +566,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 
 /* V. Pages */
   /* A. Main Areas */
-.chat-2ZfjoI,
+.chat-9g_3Xj,
 #app-mount .activityFeed-28jde9,
 #app-mount .activityFeed-1C0EmJ,
 #app-mount .gameLibrary-TTDw4Y,
@@ -582,7 +582,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   border-radius: 10px;
 }
 
-.chat-2ZfjoI.threadSidebarOpen-1LSXvU {
+.chat-9g_3Xj.threadSidebarOpen-1LSXvU {
   margin-right: 0px;
 }
 
@@ -599,7 +599,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   background: var(--veil) var(--stars) top left fixed !important;
 }
 
-.platform-linux .chat-2ZfjoI,
+.platform-linux .chat-9g_3Xj,
 .platform-linux #app-mount .activityFeed-28jde9,
 .platform-linux #app-mount .activityFeed-1C0EmJ,
 .platform-linux #app-mount .gameLibrary-TTDw4Y,
@@ -665,7 +665,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 #app-mount .headerBar-UHpsPw,
 #app-mount .container-ZMc96U,
 #app-mount .header-2EadGG,
-#app-mount .chat-2ZfjoI .channelTextArea-1FufC0,
+#app-mount .chat-9g_3Xj .channelTextArea-1FufC0,
 #app-mount .friendsTable-133bsv .friendsRow-2yicud:hover,
 #app-mount .video-eAcneW {
   background: var(--veil) var(--stars) top left !important;
@@ -683,13 +683,13 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   margin-bottom: 0px;
 }
 
-.chat-2ZfjoI .textArea-2CLwUE {
+.chat-9g_3Xj .textArea-2CLwUE {
   background-color: transparent !important;
   line-height: 1.25rem !important;
   margin-top: 8px;
 }
 
-.chat-2ZfjoI .attachButton-1UjEWA,
+.chat-9g_3Xj .attachButton-1UjEWA,
 .attachButton-_ACFSu {
   margin: 5px;
 }
@@ -737,9 +737,9 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   margin-top: -47px;
 }
 
-#app-mount .content-1jQy2l,
-#app-mount .chat-2ZfjoI form .inner-zqa7da,
-#app-mount .chat-2ZfjoI form,
+#app-mount .content-18rAwf,
+#app-mount .chat-9g_3Xj form .inner-zqa7da,
+#app-mount .chat-9g_3Xj form,
 #app-mount .itemBackground-2vEldQ,
 #app-mount .wrapper-29NfPK {
   background-color: transparent;
@@ -813,7 +813,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   margin-left: 5px;
 }
 
-#app-mount .content-1jQy2l {
+#app-mount .content-18rAwf {
   border: 1px solid var(--quatro);
 }
 
@@ -822,7 +822,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
 
-#app-mount .content-1jQy2l,
+#app-mount .content-18rAwf,
 #app-mount .activityFeed-28jde9m,
 .gameLibrary-TTDw4Y .scrollerWrap-2lJEkd,
 .friendsTable-133bsv,
@@ -842,23 +842,23 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   padding: 0 20px;
 }
 
-.chat-2ZfjoI>.content-1jQy2l .messages-3amgkR .containerCozy-jafyvG:last-child,
+.chat-9g_3Xj>.content-18rAwf .messages-3amgkR .containerCozy-jafyvG:last-child,
 .containerCompactBounded-cYR5cW:last-child {
   padding-bottom: 30px;
 }
 
-.chat-2ZfjoI .channelTextArea-1FufC0 {
+.chat-9g_3Xj .channelTextArea-1FufC0 {
   margin: 0px 0 0 0px;
   padding: 0;
   border: none;
 }
 
-.chat-2ZfjoI .innerNoAutocomplete-1WpcVO {
+.chat-9g_3Xj .innerNoAutocomplete-1WpcVO {
   border-radius: 0px;
 }
 
 
-.chat-2ZfjoI .textArea-2Spzkt {
+.chat-9g_3Xj .textArea-2Spzkt {
   background-color: transparent !important;
   line-height: 1.25rem !important;
   margin-top: 8px;
@@ -868,8 +868,8 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   align-self: center;
 }
 
-.chat-2ZfjoI form,
-.chat-2ZfjoI .channelTextArea-1FufC0,
+.chat-9g_3Xj form,
+.chat-9g_3Xj .channelTextArea-1FufC0,
 .innerNoAutocomplete-1WpcVO,
 .innerAutocomplete-1PN280 {
   margin: 0;
@@ -971,7 +971,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   display: none;
 }
 
-#app-mount .chat-2ZfjoI .jumpToPresentBar-9P20AM {
+#app-mount .chat-9g_3Xj .jumpToPresentBar-9P20AM {
   background-color: var(--blurple);
   bottom: 15px;
   border-radius: 20px;
@@ -983,7 +983,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   padding: 3px 0;
 }
 
-#app-mount .chat-2ZfjoI .jumpToPresentBar-9P20AM:before {
+#app-mount .chat-9g_3Xj .jumpToPresentBar-9P20AM:before {
   content: "";
   width: 20px;
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDEyVjBoMTJ2MTIiLz4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik01LjI0ODI5MTAyIDJ2NS4yMTg2ODg5NkwzIDUgMiA2bDQgNCA0LTQtMS0xLTIuMjg0MTE4NjUgMi4yMTg2ODg5NlYyIi8+CiAgPC9nPgo8L3N2Zz4=) 50% no-repeat;
@@ -992,13 +992,13 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   transition: all .2s ease-in-out;
 }
 
-#app-mount .chat-2ZfjoI .jumpToPresentBar-9P20AM button:last-child {
+#app-mount .chat-9g_3Xj .jumpToPresentBar-9P20AM button:last-child {
   text-align: center;
   font-family: Montserrat;
   font-size: 11px;
 }
 
-#app-mount  .chat-2ZfjoI .jumpToPresentBar-9P20AM .spinner-2RT7ZC {
+#app-mount  .chat-9g_3Xj .jumpToPresentBar-9P20AM .spinner-2RT7ZC {
   margin-left: 20px !important;
   margin-top: 10px;
   padding-right: 15px;
@@ -1007,15 +1007,15 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   transform: scale(1.3)
 }
 
-#app-mount .chat-2ZfjoI .newMessagesBar-mujexs {
+#app-mount .chat-9g_3Xj .newMessagesBar-mujexs {
   background-color: var(--blurple);
 }
 
-#app-mount .chat-2ZfjoI .newMessagesBar-mujexs:hover {
+#app-mount .chat-9g_3Xj .newMessagesBar-mujexs:hover {
   background-color: var(--blurple);
 }
 
-#app-mount .chat-2ZfjoI .hasMore-3e72_v {
+#app-mount .chat-9g_3Xj .hasMore-3e72_v {
   background: var(--quatro) var(--stars) top left;
   background-attachment: fixed;
   border: 1px solid var(--quatro);
@@ -1098,25 +1098,25 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
 }
 
   /* B. Members List */
-#app-mount .container-2o3qEW {
+#app-mount .container-2vWgD2 {
   background-color: transparent;
 }
 
-#app-mount .membersWrap-3NUR2t,
-#app-mount .members-3WRCEx .content-yjf30S {
+#app-mount .membersWrap-3GwLFp,
+#app-mount .members-2y1nVj .content-yjf30S {
   height: 100% !important;
 }
 
-#app-mount .members-3WRCEx {
+#app-mount .members-2y1nVj {
   background-color: transparent;
   margin-bottom: 55px;
 }
 
-.members-3WRCEx>div {
+.members-2y1nVj>div {
   background-color: transparent;
 }
 
-#app-mount .membersWrap-3NUR2t::after {
+#app-mount .membersWrap-3GwLFp::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1162,7 +1162,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   background: transparent;
 }
 
-#app-mount .chat-2ZfjoI form .typing-2J1mQU {
+#app-mount .chat-9g_3Xj form .typing-2J1mQU {
   background-color: var(--sheer);
   bottom: 100%;
   padding-left: 10px;
@@ -1467,7 +1467,7 @@ a.selected-1-Z6gm .layout-1qmrhw, a.channel-1Shao0:hover,
   border-color: var(--sheer);
 }
 
-#app-mount .wrapper-2SplAX {
+#app-mount .wrapper-IjGAlW {
   background: var(--veil) var(--stars) top left fixed;
   margin-bottom: 0px;
   height: 23px;
@@ -3312,7 +3312,7 @@ background-attachment: fixed;
 }
 
 /* Chat Background */
-.chat-2ZfjoI .chatContent-3KubbW {
+.chat-9g_3Xj .chatContent-2O4SXb {
   background-color: transparent;
 }
 

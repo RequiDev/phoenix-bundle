@@ -82,10 +82,10 @@
   .standardSidebarView-E9Pc3j .contentRegion-3HkfJJ,
   .channels-Ie2l6A, 
   .container-PNkimc,
-  .members-3WRCEx,
-  .chat-2ZfjoI, 
-  .chat-2ZfjoI form, 
-  .content-1jQy2l,
+  .members-2y1nVj,
+  .chat-9g_3Xj, 
+  .chat-9g_3Xj form, 
+  .content-18rAwf,
   .messagesWrapper-3lZDfY,
   .noChannel-Z1DQK7,
   .private-channel-call,
@@ -457,7 +457,7 @@
   /* 5. @Media Edits */
   @media only screen and (max-width: 915px) {
   
-    .members-3WRCEx:hover {
+    .members-2y1nVj:hover {
       background-color: var(--primary-color) !important;
     }
   }
