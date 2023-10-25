@@ -67,7 +67,7 @@
 
 /* 1. Title Bar */
 #app-mount,
-.app-2CXKsg {
+.app__00c92 {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
-.guilds-2JjMmN:not(.foldercontent) .scroller-3X7KbA>.tutorialContainer-1pL9QS .listItem-3SmSlK {
+.guilds__2b93a:not(.foldercontent) .scroller__3d071>.tutorialContainer__890ea .listItem_fa7b36 {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -89,40 +89,40 @@
   background-color: var(--quaternary-color);
 }
 
-.privateChannels-oVe7HL .searchBar-3TnChZ {
+.privateChannels__93473 .searchBar_e4ea2a {
   background: var(--quaternary-color);
 }
 
 
 
 /* 3. User Settings */
-.standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebar-nqHbhN,
-.standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh {
+.standardSidebarView__1129a .sidebarRegion__60457 .sidebar__9e3e2,
+.standardSidebarView__1129a .sidebarRegion__60457 .sidebarRegionScroller__1fa7e {
   background-color: var(--quaternary-color) !important;
 }
 
-.standardSidebarView-E9Pc3j .contentRegion-3HkfJJ {
+.standardSidebarView__1129a .contentRegion__0bec1 {
   background-color: var(--primary-color) !important;
 }
 
-.wrapper-SdcMKg {
+.wrapper__4beb8 {
   border-color: var(--main-color);
 }
 
-.selected-18Wszc.option-1QI4c9 {
+.selected_ea51d6.option_a0c054 {
   background-color: var(--main-color);
   border-color: var(--main-color);
 }
 
-.option-1QI4c9:hover {
+.option_a0c054:hover {
   background-color: var(--hover-color)
 }
 
-.paginator-1eqD2g {
+.paginator_e620d3 {
   background: var(--tertiary-color) !important;
 }
 
-.notches-2w7UZJ {
+.notches__065e9 {
   background-image: none !important;
   -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='8'%20height='20'%20fill='%2336393f'><path%20fill-rule='evenodd'%20d='M0%200h8v20H0V0zm4%202a2%202%200%200%200-2%202v12a2%202%200%201%200%204%200V4a2%202%200%200%200-2-2z'/></svg>");
   -webkit-mask-repeat: repeat-x;
@@ -131,7 +131,7 @@
 }
 
 /* 4. Guilds Wrapper */
-#app-mount .guilds-2JjMmN,
+#app-mount .guilds__2b93a,
 #app-mount .wrapper-1Rf91z,
 #app-mount .scroller-2TZvBN,
 .tutorialContainer-2sGCg9>.listItem-GuPuDH {
@@ -142,13 +142,13 @@
 /* 5. Channels */
 .channels-Ie2l6A, 
 .container-PNkimc,
-#app-mount .scroller-WSmht3,
+#app-mount .scroller__4b984,
 #app-mount .perksModal-fSYqOq {
   background-color: var(--primary-color)
 }
 
 .wrapper-2NJDcI,
-.container-2RRFHK {
+.container__4bde3 {
   background-color: var(--primary-color) !important;
 }
 
@@ -157,7 +157,7 @@
 }
 
 /* 6. Account Area */
-#app-mount .panels-3wFtMD {
+#app-mount .panels__58331 {
   background-color: var(--secondary-color);
   border-bottom: transparent;
 }
@@ -165,18 +165,18 @@
 
 
 /* 7. Members List */
-.members-2y1nVj {
+.members__9f47b {
   background-color: var(--primary-color) !important;
 }
 
 
 
 /* 8. Chat */
-.chat-9g_3Xj, 
-.chat-9g_3Xj form, 
-.content-18rAwf,
+.chat__52833, 
+.chat__52833 form, 
+.content__1a4fe,
 .messagesWrapper-3lZDfY,
-.noChannel-Z1DQK7,
+.noChannel__7bbff,
 .threadSidebar-1o3BTy {
   background-color: var(--primary-color) !important;
 }
@@ -187,15 +187,15 @@
 }
 
 .private-channel-call,
-.video-eAcneW,
-.privateChannels-oVe7HL .scrollerWrap-2lJEkd::after,
-#app-mount .streamPreview-3qoMP4 {
+.video__79b68,
+.privateChannels__93473 .scrollerWrap-2lJEkd::after,
+#app-mount .streamPreview__1846c {
   background-color: var(--quaternary-color) !important;
 }
 
 .inner-zqa7da,
 .scrollableContainer-38zsVD,
-.scrollableContainer-15eg7h {
+.scrollableContainer__33e06 {
   background-color: var(--secondary-color) !important;
 }
 
@@ -207,7 +207,7 @@
   background-color: var(--quaternary-color) !important;
 }
 
-#app-mount .scroller-2XLwLg, 
+#app-mount .scroller__311cd, 
 #app-mount .scroller-5bBood,
 .scroller-1TOeMq {
   background-color: var(--primary-color)
@@ -238,16 +238,16 @@
   background-color: var(--secondary-color);
 }
 
-#app-mount .container-ZMc96U {
+#app-mount .container__11d72 {
   background: var(--quaternary-color);
 }
 
-.sidebar-1tnWFu {
+.sidebar_ded4b5 {
   background-color: var(--primary-color);
 }
 
-#app-mount .card-2TuZPZ, 
-#app-mount .iconMask-2fMR98,
+#app-mount .card__86773, 
+#app-mount .iconMask__1aff7,
 .discoverHeader-1TWTqG {
   background-color: var(--quaternary-color);
 }
@@ -258,7 +258,7 @@
 #permissions-modal-wrapper #permissions-modal,
 .submenu-1apzyU,
 #status-picker #status-picker-switch-account,
-#status-picker .layer-2aCOJ3 .submenuPaddingContainer-_k62dJ {
+#status-picker .layer_ec16dd .submenuPaddingContainer-_k62dJ {
   background-color: var(--primary-color) !important;
 }
 
@@ -270,11 +270,11 @@
   background: var(--primary-color) !important;
 }
 
-.container-1ILvLB header {
+.container__0810b header {
   background-color: var(--quaternary-color) !important;
 }
 
-.container-1ILvLB section,
+.container__0810b section,
 .reactors-1VXca7,
 .monsterModal {
   background-color: var(--primary-color) !important;
@@ -311,9 +311,9 @@
   background-color: var(--quaternary-color) !important;
 }
 
-.keyboardShortcutsModal-2CRmCm,
+.keyboardShortcutsModal__74c71,
 .incomingCallInner-2VmFiR,
-.backdrop-2ByYRN[style*="background-color: rgb(255, 255, 255)"],
+.backdrop__7e89b[style*="background-color: rgb(255, 255, 255)"],
 #permissions-modal-wrapper .modal-body {
   background-color: var(--primary-color) !important;
 }
@@ -325,7 +325,7 @@
   box-shadow: inset 0 1px 0 var(--quaternary-color);
 }
 
-.quickswitcher-pKcM9U,
+.quickswitcher_a3d29a,
 .regionSelectModal-12e-57 {
   background-color: var(--primary-color) !important;
 }
@@ -351,11 +351,11 @@
 
 /* 13. Games Tab, Library, and Store */
 .gameLibrary-TTDw4Y,
-.applicationStore-2nk7Lo,
+.applicationStore_fc7d76,
 .itemBackground-1jfD8p,
 .root-1BQpZw,
 .root-26DmKJ,
-.appMount-2yBXZl .pageWrapper-2PwDoS {
+.appMount_fae9dd .pageWrapper_fef757 {
   background-color: var(--primary-color) !important;
 }
 
@@ -365,11 +365,11 @@
 
 /* 14. Bulk Loud Colors */
 
-.theme-light .channel-1Shao0,
-.theme-light .channel-1Shao0 a,
+.theme-light .channel_c21703,
+.theme-light .channel_c21703 a,
 .theme-light .name-2WpE7M,
 .theme-light .activity-1-H7Zd,
-.theme-light .privateChannels-oVe7HL header,
+.theme-light .privateChannels__93473 header,
 .container-1UB9sr,
 .theme-light .title-223e2Y,
 .theme-light .actionIcon-h73Pge,
@@ -381,18 +381,18 @@
 .theme-light .nameConnectedVoice-MHUX5F, 
 .theme-light .nameSelectedText-sp_EUw, 
 .theme-light .nameSelectedVoice-1qSph5,
-.theme-light .chat-9g_3Xj form .typing-2J1mQU,
+.theme-light .chat__52833 form .typing__6fd1d,
 .theme-light .nameHovered-21k1eo, 
 .theme-light .nameSpeaking-3UhoEZ,
 .theme-light.contextMenu-HLZMGh .item-1Yvehc,
 .theme-light .guild-1EfMGQ .guildInner-3DSoA4 a,
-.theme-light .noIcon-3gSX9V,
+.theme-light .noIcon__06e39,
 .theme-light .downloadIcon-sr8e65 {
     color: #111 !important;
 }
 
-.theme-light .channel-1Shao0.selected-1HYmZZ .activityIconForeground-3VIgI8, 
-.theme-light .channel-1Shao0:hover .activityIconForeground-3VIgI8 {
+.theme-light .channel_c21703.selected-1HYmZZ .activityIconForeground-3VIgI8, 
+.theme-light .channel_c21703:hover .activityIconForeground-3VIgI8 {
     fill: #000;
 }
 
@@ -421,13 +421,13 @@
 .theme-light .colorSelectedVoice-Xcb_9R, 
 .theme-light .colorUnreadText-2t7XRb, 
 .theme-light .colorUnreadVoice-137o4S,
-.theme-light .textArea-2Spzkt,
-.theme-light .textArea-2Spzkt::-webkit-input-placeholder,
+.theme-light .textArea__74543,
+.theme-light .textArea__74543::-webkit-input-placeholder,
 .theme-light .search .DraftEditor-root .public-DraftEditorPlaceholder-root,
 .theme-light .resultsGroup-1BPR25 .header-3A13BX, 
 .theme-light .resultsGroup-1BPR25 .plusIcon-2V7coV, 
-.theme-light .resultsGroup-1BPR25 .searchClearHistory-2Be-92, 
-.theme-light .resultsGroup-1BPR25 .searchLearnMore-7__o_n a {
+.theme-light .resultsGroup-1BPR25 .searchClearHistory_cd1df2, 
+.theme-light .resultsGroup-1BPR25 .searchLearnMore_bf7b8e a {
     color: #333 !important;
 }
 
@@ -443,7 +443,7 @@
 
 
 /* custom background fix */
-.userPopout-2j1gM4 .wrapper-3Un6-K::after {
+.userPopout-2j1gM4 .wrapper_edb6e0::after {
   z-index: unset;
 }
 
