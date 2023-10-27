@@ -197,7 +197,8 @@
 
 /* 1. Title Bar */
   /* 1.a. Main Title Bar */
-#app-mount .bg__7adbf {
+#app-mount .bg__7adbf,
+#app-mount .bg__12180 {
   background: transparent !important;
 }
 

@@ -71,13 +71,16 @@
     filter: blur(var(--background-blur));
   }
   
-  .app__00c92 {
+  .app__00c92,
+  .app_de4237 {
     background-color: var(--primary-color);
   }
   
     /* 1.b. Transparency */
   .layer_e552e0, 
+  .layer__2efaa, 
   .layers_a40797,
+  .layers__1c917,
   .container__037ed,
   .standardSidebarView__1129a .contentRegion__0bec1,
   .channels-Ie2l6A, 

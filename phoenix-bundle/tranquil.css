@@ -67,7 +67,8 @@
 
 /* 1. Title Bar */
 #app-mount,
-.app__00c92 {
+.app__00c92,
+.app_de4237 {
   background-color: var(--quaternary-color) !important;
 }
 
