@@ -2733,10 +2733,6 @@ pre {
   background-color: var(--hover-color);
 }
 
-#app-mount .videoControls__96149 {
-  padding: 0px;
-}
-
 #app-mount .bottomControls-UTyHwG,
 #app-mount .headerTitle-1EzOnI {
   width: unset;
@@ -2755,10 +2751,6 @@ pre {
 #app-mount .root-25RxKh.miniPlayer-3Ms77e .container__11d72 {
   background: transparent;
   border-bottom: none;
-}
-
-#app-mount .miniPlayer-3Ms77e .videoControls__96149 {
-  padding: 8px;
 }
 
 /* 9. Friends List */
