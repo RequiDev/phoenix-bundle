@@ -3441,8 +3441,7 @@ pre {
   transform: translate(-48px, -51px);
 }
 
-#app-mount .wrapper_edb6e0[style*="height: 80px"] circle+rect[x*="60"]
-#app-mount .wrapper_edb6e0[style*="height: 80px"] rect+rect[x*="60"] {
+#app-mount .wrapper_edb6e0[style*="height: 80px"] rect[x*="60"] {
 	transform: translate(-60px, -60px);
 }
 
