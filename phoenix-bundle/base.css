@@ -3407,6 +3407,10 @@ pre {
   transition: stroke 200ms ease-in-out;
 }
 
+.avatarUploaderInner_c81617 .hoverIconWrapper_c222a3 {
+  rx: var(--roundness) !important;
+}
+
 #app-mount .wrapper_edb6e0[style*="height: 24px"] rect[mask*="svg-mask-status"] {
   height: 24px !important;
   width: 24px !important;

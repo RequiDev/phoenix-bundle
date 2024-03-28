@@ -10,7 +10,7 @@
 
   /* Dark Mode */ 
   .theme-dark,
-  .appMount-3VJmYg,
+  .appMount_c99875,
   .theme-dark .theme-light {
     --primary-color: #19191b;
     --secondary-color: #1E1E21;
@@ -356,7 +356,7 @@
 .itemBackground-1jfD8p,
 .root-1BQpZw,
 .root-26DmKJ,
-.appMount_fae9dd .pageWrapper_fef757 {
+.appMount_c99875 .pageWrapper_fef757 {
   background-color: var(--primary-color) !important;
 }
 

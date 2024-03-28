@@ -16,7 +16,7 @@
 }
 
   /* Dark Mode */
-  .appMount_fae9dd {
+  .appMount_c99875 {
     --primary-color: rgba(0,0,0,var(--background-darkness));
   }
 
@@ -58,7 +58,7 @@
 
 /* 1. Background */
   /* 1.a. Main Background */
-  .appMount_fae9dd::before {
+  .appMount_c99875::before {
     position: absolute;
     content: " ";
     height: 100%;
@@ -94,7 +94,7 @@
   .private-channel-call,
   .video__79b68,
   #friends,
-  .appMount_fae9dd,
+  .appMount_c99875,
   .standardSidebarView__1129a,
   .standardSidebarView__1129a .sidebarRegion__60457,
   .inner-zqa7da,
@@ -126,7 +126,7 @@
   .root-1BQpZw,
   .root-26DmKJ,
   .container-3gCOGc,
-  .appMount_fae9dd .pageWrapper_fef757,
+  .appMount_c99875 .pageWrapper_fef757,
   .wrapper-1Rf91z,
   .wrapper_a7e7a8,
   .emptyPlayers-dx3qig, 
@@ -146,7 +146,7 @@
   #app-mount .sidebar_ded4b5,
   .scrollableContainer-38zsVD,
   .scrollableContainer__33e06,
-  .appMount_fae9dd, body,
+  .appMount_c99875, body,
   .channelTextArea__56a36,
   #app-mount .container__5c7e7,
   .container__7c79d,
