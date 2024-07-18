@@ -239,7 +239,7 @@
   background-color: var(--secondary-color);
 }
 
-#app-mount .container_e44302 {
+#app-mount .container_fc4f04 {
   background: var(--quaternary-color);
 }
 
@@ -247,8 +247,8 @@
   background-color: var(--primary-color);
 }
 
-#app-mount .card_eb1ca6, 
-#app-mount .iconMask_eb1ca6,
+#app-mount .card_e90879, 
+#app-mount .iconMask_e90879,
 .discoverHeader-1TWTqG {
   background-color: var(--quaternary-color);
 }
@@ -387,7 +387,7 @@
 .theme-light .nameSpeaking-3UhoEZ,
 .theme-light.contextMenu-HLZMGh .item-1Yvehc,
 .theme-light .guild-1EfMGQ .guildInner-3DSoA4 a,
-.theme-light .noIcon_f11207,
+.theme-light .noIcon_a64689,
 .theme-light .downloadIcon_ff398b {
     color: #111 !important;
 }

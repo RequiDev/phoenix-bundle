@@ -132,7 +132,7 @@
   .emptyPlayers-dx3qig, 
   .players-1zg2l8,
   .users-i_3-kL,
-  #app-mount .container_e44302,
+  #app-mount .container_fc4f04,
   #app-mount .users-i_3-kL,
   #app-mount .footer-1hTRRZ,
   #app-mount .footer-30ewN8,
@@ -150,13 +150,13 @@
   .channelTextArea_d0696b,
   #app-mount .container_c2739c,
   .container_fd6364,
-  .textContainer_ad9cbd,
+  .textContainer_d8e2d0,
   .stageSection-3mAD8V,
   .threadSidebar-1o3BTy {
   background: transparent !important;
   }
   
-  .textContainer_ad9cbd {
+  .textContainer_d8e2d0 {
     border: none;
   }
 
@@ -188,7 +188,7 @@
   
   
   /* 3. Chat */
-  #app-mount .iconMask_eb1ca6,
+  #app-mount .iconMask_e90879,
   .preview-rua1rr {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
@@ -227,7 +227,7 @@
     background-size: cover !important;
   }
   
-  .botTagInvert_a02df3 {
+  .botTagInvert_a9e77f {
     background-color: var(--main-color);
     color: white;
   }
@@ -413,8 +413,8 @@
   
   .content-1_NQ-_,
   .errorState-3QMR6P,
-  .phoneVerificationModal_a4eb9e .title_b9693a,
-  .phoneVerificationModal_a4eb9e .description_b9693a,
+  .phoneVerificationModal_fb9bea .title_def860,
+  .phoneVerificationModal_fb9bea .description_def860,
   .container-_CzRhL img[src*="/assets/261873897d8899d4e2e724efdfa21ee3.svg"],
   .container-_CzRhL .title-Ic5R7V,
   .container-_CzRhL .description-2waT7u,
