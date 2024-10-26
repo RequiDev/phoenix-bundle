@@ -2318,6 +2318,8 @@ pre {
 
 .scrollableContainer_bdf0de {
   border-radius: 0px;
+  background-color: transparent;
+  box-shadow: 0 2px 20px var(--shadow);
 }
 
 .chat_a7d72e .attachButton-1UjEWA,
