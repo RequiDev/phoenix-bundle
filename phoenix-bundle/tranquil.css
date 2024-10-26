@@ -106,16 +106,16 @@
   background-color: var(--primary-color) !important;
 }
 
-.wrapper_d2da9c {
+.wrapper_b877fa {
   border-color: var(--main-color);
 }
 
-.selected_d2da9c.option_d2da9c {
+.selected_b877fa.option_b877fa {
   background-color: var(--main-color);
   border-color: var(--main-color);
 }
 
-.option_d2da9c:hover {
+.option_b877fa:hover {
   background-color: var(--hover-color)
 }
 
@@ -188,7 +188,7 @@
 }
 
 .private-channel-call,
-.video_c8484a,
+.video_c84990,
 .privateChannels_f0963d .scrollerWrap-2lJEkd::after,
 #app-mount .streamPreview_adbea6 {
   background-color: var(--quaternary-color) !important;
