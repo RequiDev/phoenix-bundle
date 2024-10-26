@@ -2282,14 +2282,6 @@ pre {
   background: transparent;
 }
 
-.toolbar_fc4f04 {
-  background-color: var(--quaternary-color);
-}
-
-.toolbar_fc4f04:before {
-  border-top-color: var(--quaternary-color);
-}
-
 .active__05fbc, .hover_d0ebf2:hover {
   background-color: var(--tertiary-color);
 }
