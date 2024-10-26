@@ -882,11 +882,11 @@ a.selected_d808b0 .layout_d808b0, a.channel_c91bad:hover,
   border-radius: 0;
 }
 
-.sansAttachButton_d0696b:not(.innerDisabled__37f59) {
+.sansAttachButton_bdf0de:not(.innerDisabled__37f59) {
   padding-left: 0px
 }
 
-.sansAttachButton_d0696b > .textArea_bdf0de {
+.sansAttachButton_bdf0de > .textArea_bdf0de {
   margin-left: 16px;
 }
 
@@ -1542,12 +1542,12 @@ a.selected_d808b0 .layout_d808b0, a.channel_c91bad:hover,
   background: transparent;
 }
 
-.toolbar_de3e42 {
+.toolbar_fc4f04 {
   background: rgba(0,0,0,0.9) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
-.toolbar_de3e42:before {
+.toolbar_fc4f04:before {
   border-top-color: rgba(0,0,0,0.9);
 }
 
