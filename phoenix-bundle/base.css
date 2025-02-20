@@ -1118,7 +1118,6 @@ color: var(--dnd) !important;
 
 .container-2nx-BQ[style*="background-color: rgb(114, 118, 125);"] {
   background-color: var(--tertiary-color) !important;
-  box-s
 }
 
 /* 4. Guilds Wrapper */
@@ -3771,7 +3770,7 @@ foreignObject[mask*="mobile"]::after {
 #app-mount .avatar-3elDyV,
 .avatar__183c2, 
 .clickableAvatar__183c2, 
-..emptyUser__183c2,
+.emptyUser__183c2,
 #app-mount .acronym_fb7739,
 #app-mount div:not(.wrapper_ef3116) .wrapper_cc5dd2,
 #app-mount .wrapper__44b0c foreignObject .avatar__44b0c,
