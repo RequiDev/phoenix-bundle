@@ -1021,6 +1021,10 @@ color: var(--dnd) !important;
   background-color: var(--secondary-color);
 }
 
+.micTest__8f8f8 {
+  max-width: 95%;
+}
+
   /* 3.e. Overlay Notifications */
 .wrapper_e03935 {
   border-color: var(--main-color);
