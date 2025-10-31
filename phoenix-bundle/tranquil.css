@@ -81,7 +81,7 @@
 }
 
 .guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
-.guilds_c48ade:not(.foldercontent) .scroller_ef3116>.tutorialContainer__1f388 .listItem__650eb {
+.guilds__5e434:not(.foldercontent) .scroller_ef3116>.tutorialContainer__1f388 .listItem__650eb {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -90,7 +90,7 @@
   background-color: var(--quaternary-color);
 }
 
-.privateChannels__35e86 .searchBar__35e86 {
+.privateChannels_e6b769 .searchBar_e6b769 {
   background: var(--quaternary-color);
 }
 
@@ -132,7 +132,7 @@
 }
 
 /* 4. Guilds Wrapper */
-#app-mount .guilds_c48ade,
+#app-mount .guilds__5e434,
 #app-mount .wrapper-1Rf91z,
 #app-mount .scroller-2TZvBN,
 .tutorialContainer-2sGCg9>.listItem-GuPuDH {
@@ -158,7 +158,7 @@
 }
 
 /* 6. Account Area */
-#app-mount .panels_c48ade {
+#app-mount .panels__5e434 {
   background-color: var(--secondary-color);
   border-bottom: transparent;
 }
@@ -189,7 +189,7 @@
 
 .private-channel-call,
 .video__94748,
-.privateChannels__35e86 .scrollerWrap-2lJEkd::after,
+.privateChannels_e6b769 .scrollerWrap-2lJEkd::after,
 #app-mount .streamPreview__6da2d {
   background-color: var(--quaternary-color) !important;
 }
@@ -243,7 +243,7 @@
   background: var(--quaternary-color);
 }
 
-.sidebar_c48ade {
+.sidebar__5e434 {
   background-color: var(--primary-color);
 }
 
@@ -259,7 +259,7 @@
 #permissions-modal-wrapper #permissions-modal,
 .submenu-1apzyU,
 #status-picker #status-picker-switch-account,
-#status-picker .layer_da8173 .submenuPaddingContainer-_k62dJ {
+#status-picker .layer__59d0d .submenuPaddingContainer-_k62dJ {
   background-color: var(--primary-color) !important;
 }
 
@@ -276,7 +276,7 @@
 }
 
 .container__13b2a section,
-.reactors_cc2dff,
+.reactors_b7f4b4,
 .monsterModal {
   background-color: var(--primary-color) !important;
 }
@@ -370,7 +370,7 @@
 .theme-light .channel__972a0 a,
 .theme-light .name-2WpE7M,
 .theme-light .activity__972a0,
-.theme-light .privateChannels__35e86 header,
+.theme-light .privateChannels_e6b769 header,
 .container-1UB9sr,
 .theme-light .title-223e2Y,
 .theme-light .actionIcon-h73Pge,

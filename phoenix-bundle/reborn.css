@@ -81,7 +81,7 @@
   .layer__960e4, 
   .layers__960e4,
   .layers__960e4,
-  .container_c48ade,
+  .container__5e434,
   .standardSidebarView__23e6b .contentRegion__23e6b,
   .channels-Ie2l6A, 
   .container-PNkimc,
@@ -108,7 +108,7 @@
   .header-2o-2hj,
   .headerBar-UHpsPw,
   .container-2Thooq,
-  .privateChannels__35e86 .search-bar,
+  .privateChannels_e6b769 .search-bar,
   .wrapper-2NJDcI,
   .wrapper-29NfPK,
   .incomingCall-14zLc,
@@ -116,7 +116,7 @@
   .paginator__01014,
   .payment_e9cb00,
   .sidebar-1-SQro,
-  .reactors_cc2dff,
+  .reactors_b7f4b4,
   .applicationStore_f07d62,
   #permissions-modal-wrapper .role-side,
   .itemBackground-1jfD8p,
@@ -139,11 +139,11 @@
   .searchBar-1MOL6S, 
   #app-mount .container_fea832,
   #app-mount .footer_c33701,
-  #app-mount .privateChannels__35e86,
-  #app-mount .panels_c48ade,
+  #app-mount .privateChannels_e6b769,
+  #app-mount .panels__5e434,
   #app-mount .scroller-2TZvBN,
   #app-mount .scroller__99e7c,
-  #app-mount .sidebar_c48ade,
+  #app-mount .sidebar__5e434,
   .scrollableContainer-38zsVD,
   .scrollableContainer__74017,
   .appMount__51fd7, body,
@@ -173,15 +173,15 @@
   }
   
   .typeMacOS__421ed.titleBar__421ed,
-  .uploadModal_dbca3c .footer_dbca3c {
+  .uploadModal_b78547 .footer_b78547 {
     background-color: var(--primary-color) !important;
   }
   
   
   /* 2. User Settings */
   .standardSidebarView__23e6b .sidebarRegion__23e6b .sidebarRegionScroller__23e6b,
-  .uploadModal_dbca3c .footer_dbca3c,
-  .uploadModal_dbca3c .inner_dbca3c .channelTextAreaUpload_dbca3c .inner-zqa7da {
+  .uploadModal_b78547 .footer_b78547,
+  .uploadModal_b78547 .inner_b78547 .channelTextAreaUpload_b78547 .inner-zqa7da {
     background-color: var(--secondary-color) !important;
   }
   
@@ -201,7 +201,7 @@
   .searchResultsWrap_a9e706,
   .searchPopout-1vUlP3,
   #app-mount .container_a2f514,
-  .guilds_c48ade:not(.foldercontent) .scroller_ef3116>.tutorialContainer__1f388 .listItem__650eb {
+  .guilds__5e434:not(.foldercontent) .scroller_ef3116>.tutorialContainer__1f388 .listItem__650eb {
     background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
 
@@ -244,7 +244,7 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
 
-  #app-mount .messagesPopoutWrap__45690,
+  #app-mount .messagesPopoutWrap_e8b59c,
   #app-mount .recentMentionsPopout__95796 {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat !important;
   }
@@ -267,12 +267,12 @@
   .emojiPicker-3m1S-j, 
   .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ, 
   .diversitySelector-tmmMv0 .popout-2nUePc,
-  #app-mount .uploadModal_dbca3c,
+  #app-mount .uploadModal_b78547,
   #app-mount .modalRoot-2fww1y,
   .styleFixed-2_NfVL,
   .styleFlexible-x0_sIC,
   .submenu-1apzyU,
-  .previewContainer__5579e,
+  .previewContainer__74a6a,
   .container-2O1UgZ,
   #app-mount .streamPreview__6da2d,
   .profileBannerPreview-3_l0Wd {
@@ -306,7 +306,7 @@
   .inner-1JeGVc .root-SR8cQa,
   .container__13b2a,
   .container__9b0f4,
-  .userList_bad975,
+  .userList__24091,
   #permissions-modal-wrapper #permissions-modal,
   .create-guild-container-new.deprecated .form.deprecated,
   .toast,
@@ -334,7 +334,7 @@
   #app-mount .monsterModal,
   #app-mount .popout-3sVMXz .container-jGk-CT,
   #app-mount .modal-3v8ziU,
-  #app-mount .modal__7f8f5,
+  #app-mount .modal_ab9bdf,
   .contentWrapper-2txmjs,
   .emojiPicker_c0e32c,
   .focusLock-2tveLW .root__49fc1 {
@@ -451,8 +451,8 @@
     left: -220px;
   }
 
-  .layer_da8173[style*="; bottom: 5"][id*="popout_"] .menu_c1e9c4 .item-1OdjEX:nth-child(7),
-  #status-picker .layer_da8173 .submenuPaddingContainer-_k62dJ,
+  .layer__59d0d[style*="; bottom: 5"][id*="popout_"] .menu_c1e9c4 .item-1OdjEX:nth-child(7),
+  #status-picker .layer__59d0d .submenuPaddingContainer-_k62dJ,
   #status-picker #status-picker-switch-account {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
