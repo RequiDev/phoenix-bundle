@@ -3371,8 +3371,9 @@ pre {
 ._44b0c28be7879b7b-mask {
   contain: none;
 }
-._44b0c28be7879b7b-wrapper foreignObject+rect[mask*="svg-mask-status"],
-._44b0c28be7879b7b-wrapper[class*="avatar"] foreignObject+rect[y="22"] {
+._44b0c28be7879b7b-wrapper foreignObject+g>rect[mask*="svg-mask-status"],
+._44b0c28be7879b7b-wrapper[class*="avatar"] foreignObject+g>rect[y="22"]
+ {
   x: -.5 !important;
   y: -.5 !important;
   rx: var(--roundness) !important;
