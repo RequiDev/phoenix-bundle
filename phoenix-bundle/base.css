@@ -830,7 +830,7 @@ svg[name="Activity"] {
   color: var(--main-color);
 }
 
-.theme-dark ._4bb93312e84f332e-card:before,
+.theme-dark .b846e57d7dad7f1a-card:before,
 .side-2ur1Qk .item-3XjbnG:hover {
 	background-color: var(--secondary-color) !important; 
 	border-color: var(--secondary-color) !important 
@@ -847,7 +847,7 @@ svg[name="Activity"] {
   background-color: var(--quaternary-color);
 }
 
-#app-mount ._4bb93312e84f332e-card:before {
+#app-mount .b846e57d7dad7f1a-card:before {
   background-color: var(--quaternary-color);
   border-color: var(--secondary-color);
 }
@@ -2586,7 +2586,7 @@ pre {
 }
 
   /* 8.o. Search Results */
-.a9e7064fdee8e9b0-searchResultsWrap {
+.a98f3b020416ad54-searchResultsWrap {
   z-index: 1;
   background: var(--primary-color);
 }
@@ -2603,7 +2603,7 @@ pre {
   color: var(--tertiary-color);
 }
 
-.f3b986a284a18c78-searchHeader {
+.ae7890a1b8e75804-searchHeader {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -2614,7 +2614,7 @@ pre {
   padding: 8px 8px 8px 6px;
 }
 
-._02a39cb2980ceaaf-searchResult {
+._80bf8435713f6adb-searchResult {
   margin: 0px;
   border-radius: 0px;
   background: var(--primary-color);
@@ -2627,7 +2627,7 @@ pre {
 }
 
 .d27f17593b8064c5-calendarPicker .react-datepicker__current-month,
-._56fec8e8b8048fe0-datePicker ._56fec8e8b8048fe0-datePickerHint,
+._16eb0bfd5c5a90d1-datePicker ._16eb0bfd5c5a90d1-datePickerHint,
 .d27f17593b8064c5-calendarPicker .react-datepicker__navigation.react-datepicker__navigation--next, 
 .d27f17593b8064c5-calendarPicker .react-datepicker__navigation.react-datepicker__navigation--previous,
 .d27f17593b8064c5-calendarPicker .react-datepicker__day {
@@ -2645,12 +2645,12 @@ pre {
 
 .d27f17593b8064c5-calendarPicker .react-datepicker__day.react-datepicker__day--selected:hover, 
 .d27f17593b8064c5-calendarPicker .react-datepicker__day:hover,
-._56fec8e8b8048fe0-datePicker ._56fec8e8b8048fe0-datePickerHint ._56fec8e8b8048fe0-hintValue:hover {
+._16eb0bfd5c5a90d1-datePicker ._16eb0bfd5c5a90d1-datePickerHint ._16eb0bfd5c5a90d1-hintValue:hover {
   background-color: var(--hover-color) !important;
 }
 
 .d27f17593b8064c5-calendarPicker .react-datepicker__day.react-datepicker__day--selected:after,
-._56fec8e8b8048fe0-datePicker ._56fec8e8b8048fe0-datePickerHint ._56fec8e8b8048fe0-hintValue {
+._16eb0bfd5c5a90d1-datePicker ._16eb0bfd5c5a90d1-datePickerHint ._16eb0bfd5c5a90d1-hintValue {
   background-color: var(--main-color) !important;
 }
 
@@ -4463,8 +4463,8 @@ foreignObject[mask*="mobile"]::after {
   padding: 10px 20px;
 }
 
-.resultsGroup-1BPR25 ._56fec8e8b8048fe0-searchClearHistory,
-.resultsGroup-1BPR25 ._56fec8e8b8048fe0-searchLearnMore {
+.resultsGroup-1BPR25 ._16eb0bfd5c5a90d1-searchClearHistory,
+.resultsGroup-1BPR25 ._16eb0bfd5c5a90d1-searchLearnMore {
   top: 17px;
 }
 
