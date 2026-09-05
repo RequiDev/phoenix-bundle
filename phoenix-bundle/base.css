@@ -3368,93 +3368,103 @@ pre {
 }
   
   /* 11.b. Status */
+/* Discord draws the status as a small <rect> in the bottom right corner of the avatar's
+   own SVG. The theme strips that rect's mask, drops its fill and strokes it across the
+   whole avatar box, so a status reads as a ring around the avatar instead of a dot.
+   The avatar box size only exists as the wrapper's inline style, so every entry of
+   Discord's AvatarSizes table needs a rule below: a size that is missing here leaves the
+   rect at status size and it ends up as a stray square on top of the avatar.
+   A status that changes while it is on screen re-renders through an animated avatar that
+   names neither its status nor its size, so that one keeps Discord's own indicator. */
 .mask__44b0c {
   contain: none;
 }
-.wrapper__44b0c foreignObject+g>rect[mask*="svg-mask-status"],
-.wrapper__44b0c[class*="avatar"] foreignObject+g>rect[y="22"]
- {
-  x: -.5 !important;
-  y: -.5 !important;
-  rx: var(--roundness) !important;
-  mask: none !important;
-  -webkit-mask: none !important;
-  fill-opacity: -.1 !important;
-  stroke-width: 2px;
-  transition: stroke 200ms ease-in-out;
-}
 
-.wrapper__44b0c foreignObject+g>rect[mask*="svg-mask-status"],
-.wrapper__44b0c[class*="avatar"] foreignObject+g>rect[y="22"] {
-  opacity: 0;
-}
-
-#app-mount .wrapper__44b0c rect[mask*="svg-mask-status"][x*="60"],
-#app-mount .wrapper__44b0c rect[mask*="svg-mask-status"][x*="88"] {
-  position: absolute;
-  height: 32px !important;
-  width: 32px !important;
-  top: 0;
-  left: 0;
-  mask: none !important;
+#app-mount .wrapper__44b0c rect[mask*="svg-mask-status"] {
+  x: -.5px;
+  y: -.5px;
+  rx: var(--roundness);
+  mask: none;
+  -webkit-mask: none;
   fill-opacity: 0;
   stroke-width: 2px;
-  rx: var(--roundness) !important;
   transition: stroke 200ms ease-in-out;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 16px"] rect[mask*="svg-mask-status"] {
+  width: 16px;
+  height: 16px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 20px"] rect[mask*="svg-mask-status"] {
+  width: 20px;
+  height: 20px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 24px"] rect[mask*="svg-mask-status"] {
+  width: 24px;
+  height: 24px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 32px"] rect[mask*="svg-mask-status"] {
+  width: 32px;
+  height: 32px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 40px"] rect[mask*="svg-mask-status"] {
+  width: 40px;
+  height: 40px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 44px"] rect[mask*="svg-mask-status"] {
+  width: 44px;
+  height: 44px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 48px"] rect[mask*="svg-mask-status"] {
+  width: 48px;
+  height: 48px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 56px"] rect[mask*="svg-mask-status"] {
+  width: 56px;
+  height: 56px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 72px"] rect[mask*="svg-mask-status"] {
+  width: 72px;
+  height: 72px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 80px"] rect[mask*="svg-mask-status"] {
+  width: 80px;
+  height: 80px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 96px"] rect[mask*="svg-mask-status"] {
+  width: 96px;
+  height: 96px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 120px"] rect[mask*="svg-mask-status"] {
+  width: 120px;
+  height: 120px;
+}
+
+#app-mount .wrapper__44b0c[style*="height: 152px"] rect[mask*="svg-mask-status"] {
+  width: 152px;
+  height: 152px;
+}
+
+/* Discord paints a backdrop behind the dot on Nitro avatars; the ring replaces it. */
+#app-mount .wrapper__44b0c > svg > circle,
+#app-mount .wrapper__44b0c > svg > rect[style*="opacity: 0.45"],
+#app-mount .wrapper__44b0c > svg > rect[style*="opacity: 0.7"] {
+  visibility: hidden;
 }
 
 .avatarUploaderInner_ab876d .hoverIconWrapper_ab876d {
   rx: var(--roundness) !important;
-}
-
-#app-mount .wrapper__44b0c[style*="height: 24px"] rect[mask*="svg-mask-status"] {
-  height: 24px !important;
-  width: 24px !important;
-}
-
-#app-mount .wrapper__44b0c[style*="height: 32px"] rect[mask*="svg-mask-status"],
-#app-mount .wrapper__44b0c[style*="height: 32px"] rect[y="22"] {
-  height: 32px !important;
-  width: 32px !important;
-}
-
-#app-mount .wrapper__44b0c[style*="height: 40px"] rect[mask*="svg-mask-status"],
-#app-mount .wrapper__44b0c[style*="height: 40px"] rect[y="28"] {
-  height: 40px !important;
-  width: 40px !important;
-}
-
-#app-mount .wrapper__44b0c[style*="height: 80px"] rect[mask*="svg-mask-status"],
-#app-mount .wrapper__44b0c[style*="height: 80px"] foreignObject+g > rect {
-  height: 80px !important;
-  width: 80px !important;
-}
-
-#app-mount .wrapper__44b0c[style*="height: 120px"] rect[mask*="svg-mask-status"],
-#app-mount .wrapper__44b0c[style*="height: 120px"] foreignObject+g > rect {
-  height: 120px !important;
-  width: 120px !important;
-  transform: translate(-88px, -78px);
-}
-
-#app-mount .wrapper__44b0c[style*="height: 80px"] foreignObject+g > rect:not([x*="60"]) {
-  transform: translate(-48px, -51px);
-}
-
-#app-mount .wrapper__44b0c[style*="height: 80px"] circle+rect[x*="60"] {
-	transform: translate(-60px, -60px);
-}
-
-#app-mount .wrapper__44b0c[style*="height: 80px"] rect+rect[x*="60"] {
-	transform: translate(-60px, -51px);
-}
-
-/* Hide Background Shadow of status indicators */
-#app-mount .wrapper__44b0c[style*="height: 80px"] rect[style*="opacity: 0.45"],
-#app-mount .wrapper__44b0c[style*="height: 120px"] rect[style*="opacity: 0.45"],
-#app-mount .wrapper__44b0c[style*="height: 80px"] circle,
-#app-mount .wrapper__44b0c[style*="height: 120px"] circle {
-  visibility:hidden;
 }
 
 
@@ -3467,72 +3477,49 @@ pre {
   max-width: 85%;
 }
 
-rect[fill="#43b581"] + .dots__5ad89 {
+rect[fill="#45a366"] + .dots__5ad89,
+rect[fill="rgba(69, 163, 102, 1)"] + .dots__5ad89 {
   color: var(--online);
 }
 
-.wrapper__44b0c rect[mask*="svg-mask-status"][fill*="#43b581"],
-.wrapper__44b0c rect[mask*="svg-mask-status"][mask*="online"],
-.wrapper__44b0c foreignObject+svg rect[fill="rgba(67, 181, 129, 1)"],
-.wrapper__44b0c foreignObject+svg rect[fill="#43b581"],
-.wrapper__44b0c rect[mask*="svg-mask-status"][fill*="hsl(139"] {
-  -webkit-text-stroke-color: var(--online);
+#app-mount .wrapper__44b0c rect[mask*="svg-mask-status-online"] {
   stroke: var(--online);
 }
 
-rect[fill="#f04747"] + .dots__5ad89 {
+rect[fill="#da3e44"] + .dots__5ad89,
+rect[fill="rgba(218, 62, 68, 1)"] + .dots__5ad89 {
   color: var(--dnd);
 }
 
-.wrapper__44b0c rect[mask*="svg-mask-status"][fill*="#f04747"],
-.wrapper__44b0c rect[mask*="svg-mask-status"][mask*="dnd"],
-.wrapper__44b0c foreignObject+svg rect[fill="rgba(240, 71, 71, 1)"],
-.wrapper__44b0c foreignObject+svg rect[fill="#f04747"],
-.wrapper__44b0c rect[mask*="svg-mask-status"][fill*="hsl(359"] {
-  -webkit-text-stroke-color: var(--dnd);
+#app-mount .wrapper__44b0c rect[mask*="svg-mask-status-dnd"] {
   stroke: var(--dnd);
 }
 
-rect[fill="#faa61a"] + .dots__5ad89 {
+rect[fill="#ffc04e"] + .dots__5ad89,
+rect[fill="rgba(255, 192, 78, 1)"] + .dots__5ad89 {
   color: var(--idle);
 }
 
-.wrapper__44b0c rect[mask*="svg-mask-status"][fill*="#faa61a"],
-.wrapper__44b0c rect[mask*="svg-mask-status"][mask*="idle"],
-.wrapper__44b0c foreignObject+svg rect[fill="rgba(250, 166, 26, 1)"],
-.wrapper__44b0c foreignObject+svg rect[fill="#faa61a"],
-.wrapper__44b0c rect[mask*="svg-mask-status"][fill*="hsl(38"] {
-  -webkit-text-stroke-color: var(--idle);
+#app-mount .wrapper__44b0c rect[mask*="svg-mask-status-idle"] {
   stroke: var(--idle);
 }
 
-rect[fill="#593695"] + .dots__5ad89 {
+rect[fill="#9147ff"] + .dots__5ad89,
+rect[fill="rgba(145, 71, 255, 1)"] + .dots__5ad89 {
   color: var(--streaming);
 }
 
-.wrapper__44b0c rect[mask*="svg-mask-status"][fill*="#593695"],
-.wrapper__44b0c rect[mask*="svg-mask-status"][mask*="streaming"],
-.wrapper__44b0c foreignObject+svg rect[fill="rgba(89, 54, 149, 1)"],
-.wrapper__44b0c foreignObject+svg rect[fill="#593695"] {
-  -webkit-text-stroke-color: var(--streaming);
+#app-mount .wrapper__44b0c rect[mask*="svg-mask-status-streaming"] {
   stroke: var(--streaming);
 }
 
-.wrapper__44b0c[class*="avatar"] rect:not([mask*="svg-mask-status"])[y="22"][fill="transparent"] {
-  -webkit-text-stroke-color: var(--offline);
-  stroke: var(--offline);
-}
-
-rect[fill="#747f8d"] + .dots__5ad89 {
+rect[fill="#84858d"] + .dots__5ad89,
+rect[fill="rgba(132, 133, 141, 1)"] + .dots__5ad89 {
   color: var(--offline);
 }
 
-.wrapper__44b0c rect[mask*="svg-mask-status"][fill*="#747f8d"],
-.wrapper__44b0c rect[mask*="svg-mask-status"][mask*="invisible"],
-.wrapper__44b0c foreignObject+svg rect[fill="rgba(116, 127, 141, 1)"],
-.wrapper__44b0c foreignObject+svg rect[fill="#747f8d"] {
+#app-mount .wrapper__44b0c rect[mask*="svg-mask-status-offline"] {
   stroke: var(--offline);
-  -webkit-text-stroke-color: var(--offline);
 }
 
 .avatarWrapperNormal-3wFMbf:hover .avatarHint_f89da9,
