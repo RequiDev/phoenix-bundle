@@ -3394,50 +3394,42 @@ foreignObject[mask*="mobile"]::after {
   background: var(--primary-color);
 }
 
-#set-status-submenu .scroller_M3qk4j {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+#set-status-submenu > .scroller_M3qk4j {
   padding: 0;
 }
 
-#set-status-submenu .item_M3qk4j {
+/* Keep Discord's right-opening duration submenus clear of the other statuses. */
+:is(#set-status-submenu-online, #set-status-submenu-idle, #set-status-submenu-dnd, #set-status-submenu-invisible) {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 90px;
+  flex-direction: row;
+  align-items: center;
+  min-height: 40px;
   box-sizing: border-box;
   margin: 0;
-  padding: 4px;
+  padding: 8px;
+  gap: 8px;
   border-radius: var(--roundness);
-  border-bottom: 2px solid var(--status-color);
+  border-left: 2px solid var(--status-color);
 }
 
-#set-status-submenu .item_M3qk4j::before {
+:is(#set-status-submenu-online, #set-status-submenu-idle, #set-status-submenu-dnd, #set-status-submenu-invisible)::before {
   content: "";
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   flex-shrink: 0;
   background: var(--status-icon) center/contain no-repeat;
 }
 
-#set-status-submenu .statusAccessory_M3qk4j,
-#set-status-submenu .subtext_M3qk4j {
+:is(#set-status-submenu-online, #set-status-submenu-idle, #set-status-submenu-dnd, #set-status-submenu-invisible) > .statusAccessory_M3qk4j {
   display: none;
 }
 
-#set-status-submenu .label_M3qk4j {
-  margin-top: 4px;
-  text-align: center;
+:is(#set-status-submenu-online, #set-status-submenu-idle, #set-status-submenu-dnd, #set-status-submenu-invisible) > .label_M3qk4j {
+  text-align: start;
 }
 
-#set-status-submenu .text_cmkR8z {
-  white-space: normal;
-  font-size: 10px;
-  line-height: 12px;
-}
-
-#set-status-submenu .item_M3qk4j:hover,
-#set-status-submenu .item_M3qk4j:focus {
+:is(#set-status-submenu-online, #set-status-submenu-idle, #set-status-submenu-dnd, #set-status-submenu-invisible):hover,
+:is(#set-status-submenu-online, #set-status-submenu-idle, #set-status-submenu-dnd, #set-status-submenu-invisible):focus {
   background: var(--quaternary-color);
 }
 
