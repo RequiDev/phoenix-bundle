@@ -89,7 +89,7 @@
   .chat_z_gUBg, 
   .chat_z_gUBg form, 
   .content_z_gUBg,
-  .messagesWrapper-3lZDfY,
+  .messagesWrapper_UU236g,
   .noChannel_RvzdCg,
   .private-channel-call,
   .video_frsBab,
@@ -97,7 +97,7 @@
   .appMount_gEkNtR,
   .standardSidebarView_jnk11m,
   .standardSidebarView_jnk11m .sidebarRegion_jnk11m,
-  .inner-zqa7da,
+  .inner_2x8-Qn,
   .standardSidebarView_jnk11m .sidebarRegion_jnk11m .sidebar_jnk11m,
   .userSettingsVoice-1_dzjw .media-engine-video,
   .activityFeed-28jde9,
@@ -105,12 +105,12 @@
   .footer-2yfCgX,
   .container-1UB9sr,
   .title_z_gUBg,
-  .header-2o-2hj,
+  .header_XH4OpX,
   .headerBar-UHpsPw,
   .container-2Thooq,
   .privateChannels_u88IQl .search-bar,
   .wrapper-2NJDcI,
-  .wrapper-29NfPK,
+  .wrapper_hbKzX7,
   .incomingCall-14zLc,
   .gameLibrary-TTDw4Y,
   .paginator__01014,
@@ -125,23 +125,23 @@
   .news-2KwXHF,
   .root-1BQpZw,
   .root-26DmKJ,
-  .container-3gCOGc,
+  .container_zrUwGA,
   .appMount_gEkNtR .pageWrapper_a3a4ce,
-  .wrapper-1Rf91z,
+  .wrapper_5dqHTG,
   .wrapper_5dqHTG,
   .emptyPlayers-dx3qig, 
   .players-1zg2l8,
-  .users-i_3-kL,
+  .users_QQRrAh,
   #app-mount .container_ybUK7Z,
-  #app-mount .users-i_3-kL,
+  #app-mount .users_QQRrAh,
   #app-mount .footer-1hTRRZ,
   #app-mount .footer-30ewN8,
   .searchBar-1MOL6S, 
-  #app-mount .container_fea832,
+  #app-mount .container_isqatr,
   #app-mount .footer_c33701,
   #app-mount .privateChannels_u88IQl,
   #app-mount .panels_pog62O,
-  #app-mount .scroller-2TZvBN,
+  #app-mount .scroller_5dqHTG,
   #app-mount .scroller_Bce46W,
   #app-mount .sidebar_pog62O,
   .scrollableContainer-38zsVD,
@@ -181,14 +181,14 @@
   /* 2. User Settings */
   .standardSidebarView_jnk11m .sidebarRegion_jnk11m .sidebarRegionScroller_jnk11m,
   .uploadModal_b78547 .footer_b78547,
-  .uploadModal_b78547 .inner_TLgD1o .channelTextAreaUpload_b78547 .inner-zqa7da {
+  .uploadModal_b78547 .inner_TLgD1o .channelTextAreaUpload_b78547 .inner_2x8-Qn {
     background-color: var(--secondary-color) !important;
   }
   
   
   
   /* 3. Chat */
-  #app-mount .iconMask_e90879,
+  #app-mount .iconMask_hYPoP0,
   .preview-rua1rr {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
@@ -244,7 +244,7 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
 
-  #app-mount .messagesPopoutWrap_e8b59c,
+  #app-mount .messagesPopoutWrap_6bgemo,
   #app-mount .recentMentionsPopout__95796 {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat !important;
   }
@@ -271,10 +271,10 @@
   #app-mount .modalRoot-2fww1y,
   .styleFixed-2_NfVL,
   .styleFlexible-x0_sIC,
-  .submenu-1apzyU,
+  .submenu_M3qk4j,
   .previewContainer_jgizwB,
   .container-2O1UgZ,
-  #app-mount .streamPreview__6da2d,
+  #app-mount .streamPreview_1v6-1l,
   .profileBannerPreview-3_l0Wd {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
@@ -291,7 +291,7 @@
     background: var(--primary-color);
   }
 
-  .container-2O1UgZ .inner__999f6 {
+  .container-2O1UgZ .inner_isqatr {
     background-color: var(--quaternary-color) !important;
     border-color: var(--quaternary-color) !important;
   }
@@ -311,7 +311,7 @@
   .create-guild-container-new.deprecated .form.deprecated,
   .toast,
   .inner-2VEzy9 .root-SR8cQa,
-  #app-mount .modal-2LBig1 .focusLock-2tveLW .root-8LYsGj {
+  #app-mount .modal-2LBig1 .focusLock__KoJTP .root-8LYsGj {
     background-image: var(--popup-background) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -319,7 +319,7 @@
   }
   
   #app-mount .quickswitcher_a1DYes,
-  #app-mount .modal-3HD5ck,
+  #app-mount .modal_sg1OPw,
   #app-mount .keyboardShortcutsModal_jCEr5v,
   #app-mount .incomingCallInner-2VmFiR,
   #app-mount .regionSelectModal-12e-57,
@@ -333,11 +333,11 @@
   #app-mount .contextMenu-HLZMGh,
   #app-mount .monsterModal,
   #app-mount .popout-3sVMXz .container-jGk-CT,
-  #app-mount .modal-3v8ziU,
+  #app-mount .modal_sg1OPw,
   #app-mount .modal_sg1OPw,
   .contentWrapper-2txmjs,
   .emojiPicker_-sZhZn,
-  .focusLock-2tveLW .root__KoJTP {
+  .focusLock__KoJTP .root__KoJTP {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 
@@ -387,7 +387,7 @@
     z-index: -1 !important;
   }
   
-  .notches_e5cdf3 {
+  .notches_0EQxEk {
     position: relative;
     background-attachment: fixed;
     background-image: var(--background-image) !important;
@@ -399,7 +399,7 @@
     width: 100%;
   }
   
-  .notches_e5cdf3::before {
+  .notches_0EQxEk::before {
     content: '';
     position: absolute;
     top: 0;
@@ -451,9 +451,7 @@
     left: -220px;
   }
 
-  .layer_VVADeK[style*="; bottom: 5"][id*="popout_"] .menu_M3qk4j .item-1OdjEX:nth-child(7),
-  #status-picker .layer_VVADeK .submenuPaddingContainer-_k62dJ,
-  #status-picker #status-picker-switch-account {
+  #set-status-submenu {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
   

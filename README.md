@@ -13,6 +13,16 @@ Black Hole is an original theme that is easier to maintain.
 
 All themes will be hopefully ported to BDv2 soon.
 
+## Discord compatibility
+
+The November 2026 update refreshes the four main theme stylesheets for Discord's current CSS modules,
+surface palette, context menus and status submenu. Tranquil and Reborn share `base.css`; Black Hole is standalone.
+Status choices are targeted by their IDs rather than their position in the menu.
+
+Optional `addons/` and third-party plugin styles are outside this compatibility update.
+After an update is published to GitHub Pages, reload Discord or toggle the theme to refresh its imported CSS.
+
+
 ## Table of Contents
 1. [Copyright and License](#copyright-and-license)
    
