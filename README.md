@@ -18,6 +18,7 @@ All themes will be hopefully ported to BDv2 soon.
 The November 2026 update refreshes the four main theme stylesheets for Discord's current CSS modules,
 surface palette, context menus and status submenu. Tranquil and Reborn share `base.css`; Black Hole is standalone.
 Status choices are targeted by their IDs rather than their position in the menu.
+Obsolete Discord-only selector branches are removed in a separate cleanup commit; plugin and editor hooks are retained.
 
 Optional `addons/` and third-party plugin styles are outside this compatibility update.
 After an update is published to GitHub Pages, reload Discord or toggle the theme to refresh its imported CSS.
